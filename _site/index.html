@@ -1,159 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Hobart Makers Inc.</title>
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/bootstrap-flat.css" >
-    <link rel="stylesheet" href="/assets/css/site.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/2.2.7/assets/css/emojione.min.css"/>
-<link rel="stylesheet" type="text/css" href="https://live.hello-matrix.net/matrix-live.css">
-</head>
-<body>
-  <div class="container">
 
-    <div class="header clearfix">
-        <div class="col-md-8 col-md-offset-2">
-            <nav>
-  <ul class="nav nav-pills pull-right">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="/favicon.ico">
 
+      <title>Hobart Hackerspace Inc.
+            
+                - Recent News
+            </title>
+      <meta name="description" content="We are Hobart Hackerspace!">
 
-    <li role="presentation" class="active">
-      <a href="/">Home</a>
-    </li>
-  
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li ><a href="/liveblog/">Liveblog</a></li>
-        <li ><a href="/news/">News</a></li>
-      </ul>
-    </li>
-
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="https://hobartmakers.tidyhq.com/public/memberships/new">Join</a></li>
-        <li ><a href="/donate/">Donate</a></li>
-        <li ><a href="/events/">Events</a></li>
-      </ul>
-    </li>
-
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Info <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li ><a href="/faq/">FAQ</a></li>
-        <li ><a href="/equipment/">Equipment</a></li>
-        <li ><a href="/contact/">Contact</a></li>
-      </ul>
-    </li>
-
-  <!--
-  
-    <li role="presentation" class="active">
-      <a href="/">Home</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/liveblog/">Liveblog</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="https://hobartmakers.tidyhq.com/public/memberships/new">Join</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/donate/">Donate</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/events/">Events</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/faq/">FAQ</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/equipment/">Equipment</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/contact/">Contact</a>
-    </li>
-  
-  -->
+      <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+      <link rel="stylesheet" href="/hhs/assets/bootstrap.min.css"> <!-- flatly -->
 
 
-  </ul>
-</nav>
+      <!-- Custom styles for this page -->
+      <style type="text/css">
+
+          body {
+            padding-top: 20px;
+            padding-bottom: 0px;
+            background: no-repeat top url('/hhs/assets/background.png') #fcfcfc;
+          }
+
+          .navbar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        
+          .navbar-brand {
+            font-family:courier new, courier, monospace;
+            font-weight:bold;
+            font-size:x-large;
+          }
+
+            .navbar-brand a {
+                text-decoration: none;
+                color: white;
+            }
+
+          .panel {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 35px;
+          }
+
+          .wrapper h2 {
+            padding: 20px 0;
+            font-weight: bold;
+          }
+
+        .panel .title {
+            font-weight: bold;
+            font-size: 1.3em
+        }
+        .panel .date {
+            float: right;
+            font-size: 1em;
+            line-height: 1.8em;
+        }
+        .panel-heading {
+            overflow:auto;
+        }
+        .paginator {
+            text-align: center;
+        }
+
+        .footer {
+            background-color: rgb(44, 62, 80);
+            color: white;
+            margin: 100px 0px 0px 0px;
+            padding: 30px 0px 15px;
+        }
+        
+        .footer a {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .xwrapper        {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC}
+        .h_iframe        {position:relative; padding-top: 56%;}
+        .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+        .wrapper img {
+            clear: both;
+            float:right;
+            padding: 0 0 15px 15px;
+        }
+
+        .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4 {
+            -clear: both;
+        }
+
+      </style>
+
+      <link rel="canonical" href="http://localhost:4000/hhs/">
+      <link rel="alternate" type="application/rss+xml" title="Hobart Hackerspace Inc." href="/hhs/feed.xml">  
+    </head>
+
+    <body>
+        <div class="container">
+
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+                    aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">
+                    <a href="/hhs/">
+                        Hobart Hackerspace
+                    </a>
+                </span>
+              </div>
+
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="white-space: nowrap">
+                    <li>
+                        <a href="/hhs/">
+                            News 
+                        </a>
+                    </li>
+
+                    <!-- TODO: Take menu layout from page hierarchy -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Equipment<span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/equipment/overview">Overview</a></li>
+                            <li><a href="/hhs/equipment/status">Status</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="/hhs/equipment/makerbot">Makerbot Replicator 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/jaycar-delta">Jaycar Delta 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/cnc-router">CNC Router</a></li>
+                            <li><a href="/hhs/equipment/laser-cutter">Laser Cutter</a></li>
+                            <li><a href="/hhs/equipment/electronics-lab">Electronics Lab</a></li>
+                            <li><a href="/hhs/equipment/sewing-machines">Sewing Machines</a></li>
+                            <li><a href="/hhs/equipment/sherline-lathe">Sherline Metal Lathe</a></li>
+                        </ul>
+                    </li>
 
 
-            <h3 style="display:none;">Hobart Makers Inc.</h3>
-            <img src="/assets/images/HobartMakersMainLogo.png" width="200" style="margin-left: -10px" />
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Activities<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/activities/event-calendar">Event Calendar</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li><a href="/hhs/activities/open-night">Open Night</a></li>
+                            <li><a href="/hhs/activities/members-night">Members Night</a></li>
+                            <li><a href="/hhs/activities/workshops">Workshops</a></li>
+                            <li><a href="/hhs/activities/robot-club">Robot Club</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/hhs/">Queenstown Mobile Hackerspace (TODO)</a></li>
+                            <li><a href="/hhs/">Festival of Bright Ideas (TODO)</a></li>
+                            <li><a href="/hhs/">GovHack (TODO)</a></li>
+                        
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">About (TODO)<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Membership Agreement</a></li>
+                            <li><a href="#">Safety</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our building</a></li>
+                            <li><a href="#">Committee</a></li>
+                            <li><a href="#">Constitution</a></li>
+                        </ul>
+                    </li>
+                            
+                    <li><a href="/hhs/contact/">Contact Us</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        &nbsp;<button onclick="window.location = '/hhs/subscribe/'" class="btn btn-info navbar-btn">Subscribe</button>
+                    </li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <h2>Recent News</h2>
+
+                
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Grant money has been spent!</span>
+    <span class="date">11 Dec 2016</span>
+
+  </div>
+  <div class="panel-body">
+    <p><img src="/hhs/assets/new-tools.jpg" alt="New Tools!" title="New Tools!" /></p>
+
+<p>Tanya McLachlan-Troup and Mark Pearson have kindly donated their time to go and spend our $3000 grant money, awarded by The Mens Shed Association.</p>
+
+<p>We applied for this grant around a year ago and it was granted a few months ago. We have finally got around to spending the money, and we are celebrating by having a BBQ next Wednesday (14 Dec 2016). We want you to join us to celebrate the purchasing of the new tools with the grant money!</p>
+
+<p>Vegan sausages and gluten-free bread will be available.</p>
+
+<p>Sausages are $1 and cans are $1.</p>
+
+<p>So please come along to help celebrate and check out the tools!</p>
+
+
+
+    <p>-- Craig Marshall</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">A lathe for Hobart hackerspace</span>
+    <span class="date">02 Nov 2016</span>
+
+  </div>
+  <div class="panel-body">
+    <p>We have been very fortunate with donations to Hobart hackerspace. Recently, we had a donation of a sherline 3” precision lathe. ( thanks, Ray! )</p>
+
+<p>This machine was covered in the dust of ages, but the parts are all in very good condition. So, being hackers, the first thing we did was to pull our new machine apart. A bit of a polish on the brass, and a bit of oil in the moving parts, and away it went.</p>
+
+<p>This lathe is quite small and simple to use, but remember - it is a power tool. Remember to wear safety glasses. Think about what you are doing. If in doubt, ask!</p>
+
+
+
+    <p>-- fairly.sirius</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Delta Printer Test</span>
+    <span class="date">05 Sep 2016</span>
+
+  </div>
+  <div class="panel-body">
+    <div class="xwrapper"><div class="h_iframe"><iframe src="//www.youtube.com/embed/uMHtf_U0w_0?color=white&amp;theme=light" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>
+
+
+
+    <p>-- jjbarrows</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Mon/Wed internet access</span>
+    <span class="date">03 Aug 2016</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Most mondays and wednesdays someone plugs something either misconfigured or malicious into the network which breaks it. please check your devices.</p>
+
+
+
+    <p>-- jjbarrows</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Live Blog</span>
+    <span class="date">27 Apr 2016</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Hi and welcome to my first live update from a Weekly Meeting.</p>
+
+<p>There is a bit of tinkering going on tonight as well as some visitors being shown around the place.</p>
+
+<p>Brian is working on “Repairing” an old british electric beater.  Looks interesting and will be great to see it working at another meeting.  Maybe he can mix us some nice batter to make some donuts.</p>
+
+<p>One of the Mark’s is working on a homebuilt Infrared thermometer using and Arduino Nano with a infrared temprature sensor (Freetronics) and a nice OLED display from a kickstarter (See, some things do actually eventuate from Kickstarter).</p>
+
+<p><strong>BREAKING NEWS</strong> - As I am typing this the space’s new 3D Printer has just turned up.  Looks like a Sunday Session coming up. The new printer is a Duinotech TL-4100 Delta Kit.  Stay tuned for more updates on this.</p>
+
+<p>We are also looking at one of the new mini CNC’s.  A very nice looking device which will set you back about $650 from Ebay.  More details will follow in a post later this week.</p>
+
+<p>David is busy engraving a logo onto a chopping board for a prize.  At least we have some use coming to the Laser Cutter.  We are currently looking into upgrading the laser tube on this so it should be more usefull soon.</p>
+
+<p>We also have some general tidying up going on around the place.</p>
+
+<p>It is good to see a buzz of activity going on at the moment.  So heading into the cooler months the Hackspace seems to be picking up again which is good to see.</p>
+
+<p>So tell your friends and get them coming along to join in the journey, plus no doubt get into some interesting conversations about what we are going to try and computerised next (yes we will eventually finish the knitting machine).</p>
+
+<p>So see you next week with the next live blog and hopefully some other updates through the week.</p>
+
+
+
+    <p>-- alkaline</p>
+  </div>
+</div>
+
+
+
+
+
+<div class="paginator">   
+    <ul class="pagination pagination-sm">
+
+      <li
+        class="disabled"
+        ><a href="/hhs/">&laquo;&laquo;</a>
+      </li>
+
+      <li
+        class="disabled"
+        ><a href="">&laquo;</a>
+      </li>
+
+      <li class="active">
+        <a href="/hhs/">1</a>
+      </li>
+      
+        <li >
+            <a href="/hhs/page2/">2</a>
+        </li>
+      
+        <li >
+            <a href="/hhs/page3/">3</a>
+        </li>
+      
+        <li >
+            <a href="/hhs/page4/">4</a>
+        </li>
+      
+
+      <li
+        
+        ><a href="">&raquo;</a>
+      </li>
+
+      <li
+        
+        ><a href="/hhs/page4/">&raquo;&raquo;</a>
+      </li>
+
+    </ul> 
+</div>
+
+<!--div class="paginator">
+        
+        
+  
+    <span>Previous</span>
+  
+
+  | <span>Page: 1 of 4</span> |
+
+  
+    <a href="/hhs/page2" class="next">Next</a>
+  
+
+</div-->
+
+
+            </div>
+        </main>
+
+    </div> <!-- /container -->
+        
+    <div class="footer" >
+        <div class="container">
+            <div class="pull-left">
+                <a href="//www.facebook.com/hobarthackerspace">Facebook</a><br />
+                <a href="//twitter.com/hobhackerspace">Twitter</a>
+            </div>
+
+            <address class="text-right">
+              <strong>Hobart Hackerspace Inc.</strong><br />
+              2 St. Johns Avenue,<br />
+              New Town,<br />
+              Tasmania 7008<br />
+              <abbr title="Australian Business Number">ABN:</abbr> 68 986 261 687
+            </address>
         </div>
     </div>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
 
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 voffset-20">
-
-        <h1 id="welcome">Welcome</h1>
-
-<p>We are a group of people that love <a href="https://en.wikipedia.org/wiki/Maker_culture">making</a> things. We are based in Hobart, Tasmania and we welcome people of any age, gender, skill level and from any background.</p>
-
-<p>We are run by a team of five (Craig, Scott, Michael, Paul and Mary). Overall, we have around 17 members and counting. Please <a href="https://hobartmakers.tidyhq.com/public/memberships/new">join us</a>! :smiley:</p>
-
-<p>To find out more:</p>
-
-<ul>
-  <li>Come to an <a href="/events">event</a> - Open night is on Tuesday evenings.</li>
-  <li>Reach us via the <a href="/contact">contact</a> page</li>
-  <li>or take a look at our <a href="/faq">FAQ</a></li>
-</ul>
-
-
-
-      </div>
-    </div>
-    <div class="footer row">
-      <div class="col-md-2 col-md-offset-5 text-center">
-        <a href="https://fb.me/HobartMakers"><img src="/assets/images/social-facebook.png" class="socmed-icon"></a>
-        <a href="http://twitter.com/HobartMakers"><img src="/assets/images/social-twitter.png" class="socmed-icon"></a>
-        <a href="mailto:info@hobartmakers.com"><img src="/assets/images/social-mail.png" class="socmed-icon"></a>
-      </div>
-    </div>
-  </div>
-
-<script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://live.hello-matrix.net/matrix-live-min.js"></script>
-<script type="text/javascript">
-     $(document).ready(function() {
-        $("p, h3").each(function() {
-            var original = $(this).html();
-            // use .shortnameToImage if only converting shortnames (for slightly better performance)
-            var converted = emojione.toImage(original);
-            $(this).html(converted);
-        });
-
-        $("table").addClass("table");
-
-    });
-
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-92666141-1', 'auto');
-    ga('send', 'pageview');
-</script>
-</body>
+  </body>
 </html>
 

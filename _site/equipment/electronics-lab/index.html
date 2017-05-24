@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="/favicon.ico">
+
+      <title>Hobart Hackerspace Inc.
+            
+                - Electronics Lab
+            </title>
+      <meta name="description" content="We are Hobart Hackerspace!">
+
+      <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+      <link rel="stylesheet" href="/hhs/assets/bootstrap.min.css"> <!-- flatly -->
+
+
+      <!-- Custom styles for this page -->
+      <style type="text/css">
+
+          body {
+            padding-top: 20px;
+            padding-bottom: 0px;
+            background: no-repeat top url('/hhs/assets/background.png') #fcfcfc;
+          }
+
+          .navbar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        
+          .navbar-brand {
+            font-family:courier new, courier, monospace;
+            font-weight:bold;
+            font-size:x-large;
+          }
+
+            .navbar-brand a {
+                text-decoration: none;
+                color: white;
+            }
+
+          .panel {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 35px;
+          }
+
+          .wrapper h2 {
+            padding: 20px 0;
+            font-weight: bold;
+          }
+
+        .panel .title {
+            font-weight: bold;
+            font-size: 1.3em
+        }
+        .panel .date {
+            float: right;
+            font-size: 1em;
+            line-height: 1.8em;
+        }
+        .panel-heading {
+            overflow:auto;
+        }
+        .paginator {
+            text-align: center;
+        }
+
+        .footer {
+            background-color: rgb(44, 62, 80);
+            color: white;
+            margin: 100px 0px 0px 0px;
+            padding: 30px 0px 15px;
+        }
+        
+        .footer a {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .xwrapper        {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC}
+        .h_iframe        {position:relative; padding-top: 56%;}
+        .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+        .wrapper img {
+            clear: both;
+            float:right;
+            padding: 0 0 15px 15px;
+        }
+
+        .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4 {
+            -clear: both;
+        }
+
+      </style>
+
+      <link rel="canonical" href="http://localhost:4000/hhs/equipment/electronics-lab/">
+      <link rel="alternate" type="application/rss+xml" title="Hobart Hackerspace Inc." href="/hhs/feed.xml">  
+    </head>
+
+    <body>
+        <div class="container">
+
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+                    aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">
+                    <a href="/hhs/">
+                        Hobart Hackerspace
+                    </a>
+                </span>
+              </div>
+
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="white-space: nowrap">
+                    <li>
+                        <a href="/hhs/">
+                            News 
+                        </a>
+                    </li>
+
+                    <!-- TODO: Take menu layout from page hierarchy -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Equipment<span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/equipment/overview">Overview</a></li>
+                            <li><a href="/hhs/equipment/status">Status</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="/hhs/equipment/makerbot">Makerbot Replicator 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/jaycar-delta">Jaycar Delta 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/cnc-router">CNC Router</a></li>
+                            <li><a href="/hhs/equipment/laser-cutter">Laser Cutter</a></li>
+                            <li><a href="/hhs/equipment/electronics-lab">Electronics Lab</a></li>
+                            <li><a href="/hhs/equipment/sewing-machines">Sewing Machines</a></li>
+                            <li><a href="/hhs/equipment/sherline-lathe">Sherline Metal Lathe</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Activities<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/activities/event-calendar">Event Calendar</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li><a href="/hhs/activities/open-night">Open Night</a></li>
+                            <li><a href="/hhs/activities/members-night">Members Night</a></li>
+                            <li><a href="/hhs/activities/workshops">Workshops</a></li>
+                            <li><a href="/hhs/activities/robot-club">Robot Club</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/hhs/">Queenstown Mobile Hackerspace (TODO)</a></li>
+                            <li><a href="/hhs/">Festival of Bright Ideas (TODO)</a></li>
+                            <li><a href="/hhs/">GovHack (TODO)</a></li>
+                        
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">About (TODO)<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Membership Agreement</a></li>
+                            <li><a href="#">Safety</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our building</a></li>
+                            <li><a href="#">Committee</a></li>
+                            <li><a href="#">Constitution</a></li>
+                        </ul>
+                    </li>
+                            
+                    <li><a href="/hhs/contact/">Contact Us</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        &nbsp;<button onclick="window.location = '/hhs/subscribe/'" class="btn btn-info navbar-btn">Subscribe</button>
+                    </li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <h2>Electronics Lab</h2>
+
+                <h2 id="about">About</h2>
+
+<p><img src="/hhs/assets/electronics-lab.jpg" alt="Electronics Lab" title="Electronics Lab" /></p>
+
+<p>Our electronics work bench is complete with soldering, desoldering, power supply and oscilloscopes, along with hand tools and a large collection of spare parts. If your interest is in making PCBs then we can help you with isolation routing on the CNC Router. We also have a collection of microcontroller dev boards including a classroom set of Arduinos and Raspberry Pis which can be used to learn about the wonderful world of digital electronics.</p>
+
+<p>We have recently built two workbenches for electronics work. There are also plans to build shelving above the workbenches at a suitable height to hold instruments, tools and components. This should make the area much more pleasant to use, and easier to keep tidy.</p>
+
+<h2 id="notices">Notices</h2>
+
+<p><span class="label label-info">Advice:</span>
+The electronics area is often very untidy - please keep the area as clean and tidy as possible.</p>
+
+<p><span class="label label-danger">Warning:</span>
+No one is to work on any mains voltage equipment unless appropriately licensed to do so.</p>
+
+<h2 id="history">History</h2>
+
+<p>Late 2014 - Both oscilloscopes were set up for use, including voltage calibration, time calibration and probe compensation</p>
+
+
+
+
+            </div>
+        </main>
+
+    </div> <!-- /container -->
+        
+    <div class="footer" >
+        <div class="container">
+            <div class="pull-left">
+                <a href="//www.facebook.com/hobarthackerspace">Facebook</a><br />
+                <a href="//twitter.com/hobhackerspace">Twitter</a>
+            </div>
+
+            <address class="text-right">
+              <strong>Hobart Hackerspace Inc.</strong><br />
+              2 St. Johns Avenue,<br />
+              New Town,<br />
+              Tasmania 7008<br />
+              <abbr title="Australian Business Number">ABN:</abbr> 68 986 261 687
+            </address>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+  </body>
+</html>
+

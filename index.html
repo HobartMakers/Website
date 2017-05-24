@@ -1,0 +1,78 @@
+---
+layout: default
+title: Recent News
+---
+
+{% for post in paginator.posts %}
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">{{ post.title | escape }}</span>
+    <span class="date">{{ post.date | date_to_string }}</span>
+
+  </div>
+  <div class="panel-body">
+    {{ post.content }}
+
+    <p>-- {% if post.author %}{{ post.author }}{% else %}Hobart Hackerspace{% endif %}</p>
+  </div>
+</div>
+{% endfor %}
+
+
+{{ paginate | default_pagination }}
+
+<div class="paginator">   
+    <ul class="pagination pagination-sm">
+
+      <li
+        {% if paginator.previous_page %}{% else %}class="disabled"{% endif %}
+        ><a href="{{ "/" | relative_url }}">&laquo;&laquo;</a>
+      </li>
+
+      <li
+        {% if paginator.previous_page %}{% else %}class="disabled"{% endif %}
+        ><a href="{{ paginator.previous_page_path | relative_url }}">&laquo;</a>
+      </li>
+
+      <li {% if paginator.page == 1 %}class="active"{% endif %}>
+        <a href="{{ "/" | relative_url }}">1</a>
+      </li>
+      {% for i in (2..paginator.total_pages) %}
+        <li {% if paginator.page == i %}class="active"{% endif %}>
+            <a href="{{ "/page" | relative_url }}{{ i }}/">{{ i }}</a>
+        </li>
+      {% endfor %}
+
+      <li
+        {% if paginator.next_page %}{% else %}class="disabled"{% endif %}
+        ><a href="{{ patinator.next_page_path | relative_url }}">&raquo;</a>
+      </li>
+
+      <li
+        {% if paginator.next_page %}{% else %}class="disabled"{% endif %}
+        ><a href="{{ "/page" | relative_url }}{{ paginator.total_pages }}/">&raquo;&raquo;</a>
+      </li>
+
+    </ul> 
+</div>
+
+<!--div class="paginator">
+        
+        
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">Previous</a>
+  {% else %}
+    <span>Previous</span>
+  {% endif %}
+
+  | <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> |
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+
+</div-->
+

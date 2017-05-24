@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="/favicon.ico">
+
+      <title>Hobart Hackerspace Inc.
+            
+                - Workshops
+            </title>
+      <meta name="description" content="We are Hobart Hackerspace!">
+
+      <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+      <link rel="stylesheet" href="/hhs/assets/bootstrap.min.css"> <!-- flatly -->
+
+
+      <!-- Custom styles for this page -->
+      <style type="text/css">
+
+          body {
+            padding-top: 20px;
+            padding-bottom: 0px;
+            background: no-repeat top url('/hhs/assets/background.png') #fcfcfc;
+          }
+
+          .navbar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        
+          .navbar-brand {
+            font-family:courier new, courier, monospace;
+            font-weight:bold;
+            font-size:x-large;
+          }
+
+            .navbar-brand a {
+                text-decoration: none;
+                color: white;
+            }
+
+          .panel {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 35px;
+          }
+
+          .wrapper h2 {
+            padding: 20px 0;
+            font-weight: bold;
+          }
+
+        .panel .title {
+            font-weight: bold;
+            font-size: 1.3em
+        }
+        .panel .date {
+            float: right;
+            font-size: 1em;
+            line-height: 1.8em;
+        }
+        .panel-heading {
+            overflow:auto;
+        }
+        .paginator {
+            text-align: center;
+        }
+
+        .footer {
+            background-color: rgb(44, 62, 80);
+            color: white;
+            margin: 100px 0px 0px 0px;
+            padding: 30px 0px 15px;
+        }
+        
+        .footer a {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .xwrapper        {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC}
+        .h_iframe        {position:relative; padding-top: 56%;}
+        .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+        .wrapper img {
+            clear: both;
+            float:right;
+            padding: 0 0 15px 15px;
+        }
+
+        .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4 {
+            -clear: both;
+        }
+
+      </style>
+
+      <link rel="canonical" href="http://localhost:4000/hhs/activities/workshops/">
+      <link rel="alternate" type="application/rss+xml" title="Hobart Hackerspace Inc." href="/hhs/feed.xml">  
+    </head>
+
+    <body>
+        <div class="container">
+
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+                    aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">
+                    <a href="/hhs/">
+                        Hobart Hackerspace
+                    </a>
+                </span>
+              </div>
+
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="white-space: nowrap">
+                    <li>
+                        <a href="/hhs/">
+                            News 
+                        </a>
+                    </li>
+
+                    <!-- TODO: Take menu layout from page hierarchy -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Equipment<span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/equipment/overview">Overview</a></li>
+                            <li><a href="/hhs/equipment/status">Status</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="/hhs/equipment/makerbot">Makerbot Replicator 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/jaycar-delta">Jaycar Delta 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/cnc-router">CNC Router</a></li>
+                            <li><a href="/hhs/equipment/laser-cutter">Laser Cutter</a></li>
+                            <li><a href="/hhs/equipment/electronics-lab">Electronics Lab</a></li>
+                            <li><a href="/hhs/equipment/sewing-machines">Sewing Machines</a></li>
+                            <li><a href="/hhs/equipment/sherline-lathe">Sherline Metal Lathe</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Activities<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/activities/event-calendar">Event Calendar</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li><a href="/hhs/activities/open-night">Open Night</a></li>
+                            <li><a href="/hhs/activities/members-night">Members Night</a></li>
+                            <li><a href="/hhs/activities/workshops">Workshops</a></li>
+                            <li><a href="/hhs/activities/robot-club">Robot Club</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/hhs/">Queenstown Mobile Hackerspace (TODO)</a></li>
+                            <li><a href="/hhs/">Festival of Bright Ideas (TODO)</a></li>
+                            <li><a href="/hhs/">GovHack (TODO)</a></li>
+                        
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">About (TODO)<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Membership Agreement</a></li>
+                            <li><a href="#">Safety</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our building</a></li>
+                            <li><a href="#">Committee</a></li>
+                            <li><a href="#">Constitution</a></li>
+                        </ul>
+                    </li>
+                            
+                    <li><a href="/hhs/contact/">Contact Us</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        &nbsp;<button onclick="window.location = '/hhs/subscribe/'" class="btn btn-info navbar-btn">Subscribe</button>
+                    </li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <h2>Workshops</h2>
+
+                <!-- TODO: Mention week of workshops ? -->
+
+<p>A core objective of Hobart Hackerspace Inc. is to promote technical innovation in the wider community, as such we sometimes run workshops and public events. We can also arrange special demonstrations and instruction for students of all ages and skill levels.</p>
+
+<p>Here are a sample of some of the workshops that have been run in the past, and may run again in the future. We are always interested in hearing your ideas for workshop topics. Especially if you are able to teach one for us!</p>
+
+<p>Squishy Circuits - Beginner 
+A conductive and non-conductive play-doh is used in place of wires to give children and the young at heart a hands on and fun way of making basic circuits. Connect a power source and watch lights flicker and motors turn. Play with different electrodes to turn the doh in to a battery and inadvertently learn some new things about analogue electronics in the process.</p>
+
+<p>Coder Dojo - Beginner
+CoderDojo is a volunteer led, global movement oriented around running free not-for-profit coding clubs and regular sessions for young people aged 7-17, specializing in computer programming, technology and electronics. CoderDojo @ Hobart Hackerspace emphasises self motivated learning through fun projects, peer to peer mentoring and creativity. Young people learn from one another about computers, programming, tools and the maker movement. More information available from http://coderdojo.com</p>
+
+<p>Introduction to Electronics - Beginner
+Taught by three of our most experienced members, this course covers all the basics of electronics. Calculating voltages and currents, Ohms law, what different components do and how they function. By the end of this workshop series you should be able to comfortably design and build a simple circuit, and have the basic skills to troubleshoot faulty equipment.</p>
+
+<p>Arduino - Moderate
+The current “must have” in the electronics experimenters world is an Arduino. These little AT family micro-controller development boards are a stepping stone towards hardware development and digital electronics. We also have a few ARM development boards in the form of mBeds and other even more basic boards, so you can work your way up to designing and building your own computer based controllers</p>
+
+<p>PIC - Moderate to Advanced
+Our PIC workshop is the entry point for people who want to learn about board design. It is assumed participants know a little about electronics and programming so our PIC workshop looks at designing a circuit, drawing it up using PCB design software, isolation routing the board using the 3-axis Mill, soldering components and then programming it to do what you designed it to do. We can do a more introductory version where the circuit has been designed for you so you can get to the fun parts quicker or we can work with you to design something to suit your own needs.</p>
+
+<p>3D CAD - Beginner
+Using FreeCAD Primitives and Boolean Operations (Don’t worry, we’ll explain this), you can learn enough to be able to design simple 3D Objects and prepare them for the CNC Mill or 3D printer. Once you have got these basics covered, you’ll be surprised how easy it is.</p>
+
+<p>CNC Mill - Moderate
+Probably our most complicated peice of equipment is the CNC Mill. To operate this you need to understand the principles of how the tools cut, how to calculate speeds, how to prepare toolpaths in CAM (using CamBam) and how to set up and operate the mill itself. This is a workshop series of 4 evenings offered regularly.</p>
+
+<p>Other Workshops
+Our members have a huge range of skills and are all too willing to share what they know. We regularly host workshops on other topics such as the operation and maintenance of machinery, to electronic art, virtual reality and gaming, and other fun things people dream up along the way.</p>
+
+
+
+
+            </div>
+        </main>
+
+    </div> <!-- /container -->
+        
+    <div class="footer" >
+        <div class="container">
+            <div class="pull-left">
+                <a href="//www.facebook.com/hobarthackerspace">Facebook</a><br />
+                <a href="//twitter.com/hobhackerspace">Twitter</a>
+            </div>
+
+            <address class="text-right">
+              <strong>Hobart Hackerspace Inc.</strong><br />
+              2 St. Johns Avenue,<br />
+              New Town,<br />
+              Tasmania 7008<br />
+              <abbr title="Australian Business Number">ABN:</abbr> 68 986 261 687
+            </address>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+  </body>
+</html>
+

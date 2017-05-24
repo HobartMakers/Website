@@ -1,0 +1,21 @@
+---
+title: "Love the Hackerspace!"
+author: "iWill"
+---
+
+Hi!
+
+I loved the concept of the Hackerspace when Joseph explained it to me and I was glad to be a founding member.  Changes in my life have lead to me having a lot more time on my hands, and I expect to be making good use of h-space from now on.  Since last wednesday, I have been able to put together a working HP/Compaq laptop with wifi and 2 DVD drives running an OLD* version of Ubuntu. A great little machine to use when out-and-about.
+
+Some time ago a few of us discussed what would be needed to make the place disability friendly.  Last wednesday my mouth dropped when I was told that a government rep. laughed when Hackerspace asked for help bringing the place 'up-to-code'.  Yet I can understand that.  Certain aspects of the building make it impossible.  All of us who suffer from the disability of being tall will have to continue to suffer.
+
+Yet there is one change we could make that would benefit us all.  A long ramp at the back, and a trolley to enable us to move gear in and out without risk of back injury!
+
+[Hmmm.. can't seem to upload image!! I'll put it up soon]
+
+What do people think?
+
+Will
+
+*Pentium M in laptop doesn't support PAE, so l am using v11.10.  If I let Ubuntu go ahead and update itself, is there a possibility it will update the kernel to a version which will not work?
+

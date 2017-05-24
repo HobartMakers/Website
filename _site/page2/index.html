@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="/favicon.ico">
+
+      <title>Hobart Hackerspace Inc.
+            
+                - Recent News
+            </title>
+      <meta name="description" content="We are Hobart Hackerspace!">
+
+      <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+      <link rel="stylesheet" href="/hhs/assets/bootstrap.min.css"> <!-- flatly -->
+
+
+      <!-- Custom styles for this page -->
+      <style type="text/css">
+
+          body {
+            padding-top: 20px;
+            padding-bottom: 0px;
+            background: no-repeat top url('/hhs/assets/background.png') #fcfcfc;
+          }
+
+          .navbar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        
+          .navbar-brand {
+            font-family:courier new, courier, monospace;
+            font-weight:bold;
+            font-size:x-large;
+          }
+
+            .navbar-brand a {
+                text-decoration: none;
+                color: white;
+            }
+
+          .panel {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 35px;
+          }
+
+          .wrapper h2 {
+            padding: 20px 0;
+            font-weight: bold;
+          }
+
+        .panel .title {
+            font-weight: bold;
+            font-size: 1.3em
+        }
+        .panel .date {
+            float: right;
+            font-size: 1em;
+            line-height: 1.8em;
+        }
+        .panel-heading {
+            overflow:auto;
+        }
+        .paginator {
+            text-align: center;
+        }
+
+        .footer {
+            background-color: rgb(44, 62, 80);
+            color: white;
+            margin: 100px 0px 0px 0px;
+            padding: 30px 0px 15px;
+        }
+        
+        .footer a {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .xwrapper        {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC}
+        .h_iframe        {position:relative; padding-top: 56%;}
+        .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+        .wrapper img {
+            clear: both;
+            float:right;
+            padding: 0 0 15px 15px;
+        }
+
+        .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4 {
+            -clear: both;
+        }
+
+      </style>
+
+      <link rel="canonical" href="http://localhost:4000/hhs/page2/">
+      <link rel="alternate" type="application/rss+xml" title="Hobart Hackerspace Inc." href="/hhs/feed.xml">  
+    </head>
+
+    <body>
+        <div class="container">
+
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+                    aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">
+                    <a href="/hhs/">
+                        Hobart Hackerspace
+                    </a>
+                </span>
+              </div>
+
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="white-space: nowrap">
+                    <li>
+                        <a href="/hhs/">
+                            News 
+                        </a>
+                    </li>
+
+                    <!-- TODO: Take menu layout from page hierarchy -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Equipment<span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/equipment/overview">Overview</a></li>
+                            <li><a href="/hhs/equipment/status">Status</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="/hhs/equipment/makerbot">Makerbot Replicator 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/jaycar-delta">Jaycar Delta 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/cnc-router">CNC Router</a></li>
+                            <li><a href="/hhs/equipment/laser-cutter">Laser Cutter</a></li>
+                            <li><a href="/hhs/equipment/electronics-lab">Electronics Lab</a></li>
+                            <li><a href="/hhs/equipment/sewing-machines">Sewing Machines</a></li>
+                            <li><a href="/hhs/equipment/sherline-lathe">Sherline Metal Lathe</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Activities<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/activities/event-calendar">Event Calendar</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li><a href="/hhs/activities/open-night">Open Night</a></li>
+                            <li><a href="/hhs/activities/members-night">Members Night</a></li>
+                            <li><a href="/hhs/activities/workshops">Workshops</a></li>
+                            <li><a href="/hhs/activities/robot-club">Robot Club</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/hhs/">Queenstown Mobile Hackerspace (TODO)</a></li>
+                            <li><a href="/hhs/">Festival of Bright Ideas (TODO)</a></li>
+                            <li><a href="/hhs/">GovHack (TODO)</a></li>
+                        
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">About (TODO)<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Membership Agreement</a></li>
+                            <li><a href="#">Safety</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our building</a></li>
+                            <li><a href="#">Committee</a></li>
+                            <li><a href="#">Constitution</a></li>
+                        </ul>
+                    </li>
+                            
+                    <li><a href="/hhs/contact/">Contact Us</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        &nbsp;<button onclick="window.location = '/hhs/subscribe/'" class="btn btn-info navbar-btn">Subscribe</button>
+                    </li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <h2>Recent News</h2>
+
+                
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">3D Printer Fundraising</span>
+    <span class="date">13 Mar 2016</span>
+
+  </div>
+  <div class="panel-body">
+    <p>The 3D printer at Hobart Hackerspace Inc has seen better days. It’s now more than 3 years old and has been flaky for some time. We’d love to raise $2000-$2500 to buy an awesome SLA printer for our members.</p>
+
+<p>Here is the link if you would like to donate: <a href="https://www.givenow.com.au/hobarthackerspace3dprinter">https://www.givenow.com.au/hobarthackerspace3dprinter</a></p>
+
+
+
+    <p>-- cm</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Hackerspace WoW! (Week of workshops)</span>
+    <span class="date">19 Jun 2015</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Hobart Hackerspace Week of Workshops, now over two weeks :P</p>
+
+<p>We have GovHack and we have our own lives and wives/husbands to deal with, so this time our Week of Workshops has a few breaks in the middle, but you still get all the excellence of learning new things from people who are really no smarter than you. Don’t you love the honesty? You know it’s true when most of these workshops are being run by Shane.</p>
+
+<p>For financial members it’s all free, non-members $10 (excluding the Wednesday evening session 8th Jul which is open to the public)</p>
+
+<h4 id="mon-29-jun-2015---cnc---gcode">Mon 29 Jun 2015 - CNC - gcode</h4>
+<p>Do you know what gcode is? Can you understand what these machine instructions are?</p>
+
+<p>We’re going to have a session dedicated to the language of CNC machines the world over.</p>
+
+<p>7 - 9pm (no prerequisites)</p>
+
+<h4 id="tue-30-jun-2015--cnc---cam">Tue 30 Jun 2015- CNC - CAM</h4>
+<p>This session will cover basic tooling and material cutting theory, and how we go about generating a gcode file from a CAD drawing. We will look at the different ways of milling a 3D surface, and how to generate simple files for the CNC</p>
+
+<p>7 - 9pm (prerequisites - either a CNC tooling or gcode workshop)</p>
+
+<h4 id="mon-6th-jul-2015---cad-primitives">Mon 6th Jul 2015 - CAD (Primitives)</h4>
+<p>This is the very entry level FreeCAD course for people who want to draw basic components using primitive shapes. It’s like the LEGO of CAD, blocks stacked upon each other but at the end of it all you have a design ready for the 3D printer or CNC</p>
+
+<p>7 - 9pm (no prerequisites - byo computer with a current version of FreeCAD installed)</p>
+
+<h4 id="tue-7th-jul-2015---cad-draft">Tue 7th Jul 2015 - CAD (Draft)</h4>
+<p>In this session we will look at more advanced features of freeCAD, such as using constraints to shift a measured or drawn complex design in to a series of drafts and then turn them in to a 3D object.</p>
+
+<p>7 - 9pm (no prerequisites but the primitives course may be beneficial - byo computer with a current version of FreeCAD installed)</p>
+
+<h4 id="wed-8th-jul-2015---celestial-navigation">Wed 8th Jul 2015 - Celestial navigation</h4>
+<p>Yep, no kidding.. This is going to be a short session where we’ll ask the question, “how did those dutch explorers get most of the way around the world in the 1600s?” Have you ever wondered? Not all of them crashed like Dirk Hartog, but how? The answer is surprisingly simple</p>
+
+<p>8 - 9pm (no prerequisites)</p>
+
+<h4 id="thu-9th-jul-2015---attiny-the-tiny-soution-to-everything">Thu 9th Jul 2015 - ATTINY, the tiny soution to everything</h4>
+<p>So you need to flash a light, respond to an input or do some simple repetitive task. The ATTINY is a great replacement for many analog circuits and can be programmed to do all the things you need and more. We’re going to look at the chip, the architecture and some simple programs to replace the need for things like 555 (timer) circuits.</p>
+
+<p>7 - 9pm  (no prerequisites - byo compuer with arduino IDE installed)</p>
+
+
+
+    <p>-- Shane</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Delta Printer Update</span>
+    <span class="date">25 Mar 2015</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Well, it has been a while since I posted an update on the progress of the Printer, well, it seems I got distracted :).</p>
+
+<p>In the past few months I have managed to learn a lot about the Laser Cutter and have been proud to be part of the team helping to get it back in action.  You should see some improvements in that very soon as we have new mirrors arriving soon and progress is happening every week.</p>
+
+<p>As for the printer, the initial design had some minor flaws, IE, I shouldn’t have rushed the designs as I made a few mistakes in alignment which caused all the problems.  As such I have spent quite a bit more time re doing the mounts and hopefully I should be able to start printing them very soon.  This along with some CNC’d parts should get my 3D printer back online in the next month.</p>
+
+<p>Stay tuned for some more updates soon and hopefully I will get cracking on a weekly run down on the wednesday night meetings as well for those that couldn’t make it but would like to keep up with whats happening in the space.</p>
+
+
+
+    <p>-- alkaline</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Social Night - Returning for 2015</span>
+    <span class="date">06 Jan 2015</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Hello everyone. Just a quick message to let you know that Social Night’s are returning for 2015 from this Wednesday, 7 January.</p>
+
+<p>You can <a href="https://hobarthackerspace.org.au/civicrm/event/info?reset=1&amp;id=3">find all the details here</a> for our first one of the year.</p>
+
+<p>Our Social Night’s are a perfect opportunity for non-members to visit, check our the space and the people that make it what it is. Visitors are most welcome!</p>
+
+<p>Here’s to a massive 2015.</p>
+
+<p>Cheers
+Craig Clark
+HHS Vice President and wannabe maker! :)</p>
+
+
+
+    <p>-- craigclark</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Closing in on the finish line</span>
+    <span class="date">04 Jan 2015</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Well, I can see a light at the end of the tunnel.  After a nice holiday break I managed to spend a few hours down at hackspace watching my last pieces printing on the MakerBot.  3 sets of rail guides later I now have a fully assembled printer :)</p>
+
+<p>The next step on the path is to get the heatbed and hotend all mounted an ready to go and finalise the mounting of the electonics.</p>
+
+<p>In a bit of a work session this weekend I have assembled all off the electronics and tested them with the modified ATX power supply.</p>
+
+<p>So hopefully by the end of the week I will have a working 3D Delta Printer.</p>
+
+<p>Fo those interested in seeing it alive I should be working on it as normal at the next Wednesday Social Night and hopefully making it move :)</p>
+
+<p>I will post some pictures later.</p>
+
+
+
+    <p>-- alkaline</p>
+  </div>
+</div>
+
+
+
+
+
+<div class="paginator">   
+    <ul class="pagination pagination-sm">
+
+      <li
+        
+        ><a href="/hhs/">&laquo;&laquo;</a>
+      </li>
+
+      <li
+        
+        ><a href="/hhs/">&laquo;</a>
+      </li>
+
+      <li >
+        <a href="/hhs/">1</a>
+      </li>
+      
+        <li class="active">
+            <a href="/hhs/page2/">2</a>
+        </li>
+      
+        <li >
+            <a href="/hhs/page3/">3</a>
+        </li>
+      
+        <li >
+            <a href="/hhs/page4/">4</a>
+        </li>
+      
+
+      <li
+        
+        ><a href="">&raquo;</a>
+      </li>
+
+      <li
+        
+        ><a href="/hhs/page4/">&raquo;&raquo;</a>
+      </li>
+
+    </ul> 
+</div>
+
+<!--div class="paginator">
+        
+        
+  
+    <a href="/hhs/">Previous</a>
+  
+
+  | <span>Page: 2 of 4</span> |
+
+  
+    <a href="/hhs/page3" class="next">Next</a>
+  
+
+</div-->
+
+
+            </div>
+        </main>
+
+    </div> <!-- /container -->
+        
+    <div class="footer" >
+        <div class="container">
+            <div class="pull-left">
+                <a href="//www.facebook.com/hobarthackerspace">Facebook</a><br />
+                <a href="//twitter.com/hobhackerspace">Twitter</a>
+            </div>
+
+            <address class="text-right">
+              <strong>Hobart Hackerspace Inc.</strong><br />
+              2 St. Johns Avenue,<br />
+              New Town,<br />
+              Tasmania 7008<br />
+              <abbr title="Australian Business Number">ABN:</abbr> 68 986 261 687
+            </address>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+  </body>
+</html>
+

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="/favicon.ico">
+
+      <title>Hobart Hackerspace Inc.
+            
+                - Recent News
+            </title>
+      <meta name="description" content="We are Hobart Hackerspace!">
+
+      <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+      <link rel="stylesheet" href="/hhs/assets/bootstrap.min.css"> <!-- flatly -->
+
+
+      <!-- Custom styles for this page -->
+      <style type="text/css">
+
+          body {
+            padding-top: 20px;
+            padding-bottom: 0px;
+            background: no-repeat top url('/hhs/assets/background.png') #fcfcfc;
+          }
+
+          .navbar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        
+          .navbar-brand {
+            font-family:courier new, courier, monospace;
+            font-weight:bold;
+            font-size:x-large;
+          }
+
+            .navbar-brand a {
+                text-decoration: none;
+                color: white;
+            }
+
+          .panel {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 35px;
+          }
+
+          .wrapper h2 {
+            padding: 20px 0;
+            font-weight: bold;
+          }
+
+        .panel .title {
+            font-weight: bold;
+            font-size: 1.3em
+        }
+        .panel .date {
+            float: right;
+            font-size: 1em;
+            line-height: 1.8em;
+        }
+        .panel-heading {
+            overflow:auto;
+        }
+        .paginator {
+            text-align: center;
+        }
+
+        .footer {
+            background-color: rgb(44, 62, 80);
+            color: white;
+            margin: 100px 0px 0px 0px;
+            padding: 30px 0px 15px;
+        }
+        
+        .footer a {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .xwrapper        {width:100%; max-width: 600px; height:100%; margin:0 auto; background:#CCC}
+        .h_iframe        {position:relative; padding-top: 56%;}
+        .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+        .wrapper img {
+            clear: both;
+            float:right;
+            padding: 0 0 15px 15px;
+        }
+
+        .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4 {
+            -clear: both;
+        }
+
+      </style>
+
+      <link rel="canonical" href="http://localhost:4000/hhs/page3/">
+      <link rel="alternate" type="application/rss+xml" title="Hobart Hackerspace Inc." href="/hhs/feed.xml">  
+    </head>
+
+    <body>
+        <div class="container">
+
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+                    aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">
+                    <a href="/hhs/">
+                        Hobart Hackerspace
+                    </a>
+                </span>
+              </div>
+
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="white-space: nowrap">
+                    <li>
+                        <a href="/hhs/">
+                            News 
+                        </a>
+                    </li>
+
+                    <!-- TODO: Take menu layout from page hierarchy -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Equipment<span class="caret"></span></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/equipment/overview">Overview</a></li>
+                            <li><a href="/hhs/equipment/status">Status</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="/hhs/equipment/makerbot">Makerbot Replicator 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/jaycar-delta">Jaycar Delta 3D Printer</a></li>
+                            <li><a href="/hhs/equipment/cnc-router">CNC Router</a></li>
+                            <li><a href="/hhs/equipment/laser-cutter">Laser Cutter</a></li>
+                            <li><a href="/hhs/equipment/electronics-lab">Electronics Lab</a></li>
+                            <li><a href="/hhs/equipment/sewing-machines">Sewing Machines</a></li>
+                            <li><a href="/hhs/equipment/sherline-lathe">Sherline Metal Lathe</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Activities<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/hhs/activities/event-calendar">Event Calendar</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li><a href="/hhs/activities/open-night">Open Night</a></li>
+                            <li><a href="/hhs/activities/members-night">Members Night</a></li>
+                            <li><a href="/hhs/activities/workshops">Workshops</a></li>
+                            <li><a href="/hhs/activities/robot-club">Robot Club</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/hhs/">Queenstown Mobile Hackerspace (TODO)</a></li>
+                            <li><a href="/hhs/">Festival of Bright Ideas (TODO)</a></li>
+                            <li><a href="/hhs/">GovHack (TODO)</a></li>
+                        
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">About (TODO)<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Membership Agreement</a></li>
+                            <li><a href="#">Safety</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our building</a></li>
+                            <li><a href="#">Committee</a></li>
+                            <li><a href="#">Constitution</a></li>
+                        </ul>
+                    </li>
+                            
+                    <li><a href="/hhs/contact/">Contact Us</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        &nbsp;<button onclick="window.location = '/hhs/subscribe/'" class="btn btn-info navbar-btn">Subscribe</button>
+                    </li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <h2>Recent News</h2>
+
+                
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Update 2</span>
+    <span class="date">04 Dec 2014</span>
+
+  </div>
+  <div class="panel-body">
+    <p>OK, it has been two hectic weeks with the only time to work on the printer has been at the Wednesday night sessions but these have been very constructive.</p>
+
+<p>The first week I managed to get all the balsa wood arm mounts and hotend mounts made  then I finally managed to assemble the rods and boards into the frame.  This was a mojor stepping stone as it now looks like the printer it will become :).</p>
+
+<p>After checking every thing fitted nicely together, I disasembled it again so I could mount the three motors under the bottom board.  With those mounted on some angle brackets and cable ties I re-assembled the printer to mount the arms.</p>
+
+<p>Woot, first night done and proud of the achievements.</p>
+
+<p>This week I was starting to look at how to mount the bearings and timing belts but was diverted when Shane thought it would look better with some CNC’d parts.  So after removing the arm mounts from the hotend holder he proceeded to design up a bueatiful hotend mount out of some 10mm smoked acrylic.</p>
+
+<p>With this done, drilled, tapped and assembled it looked way better and certainly a marked improvement on my, umm, interesting balsa wood holder ;)</p>
+
+<p>So from now until the next meeting I will be designing some cnc plans for the arm platforms and hopefully get them milled next week.  We are still on track to having this working by Christmas and can’t wait to see it in motion.</p>
+
+<p>Thanks heaps for the assistance this week Shane and can’t wait to see the rest milled and assembled.</p>
+
+<p>I will be posting some pictures shortly so check back after the weekend to see them.</p>
+
+
+
+    <p>-- alkaline</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">The Build Begins</span>
+    <span class="date">25 Nov 2014</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Some of you may have heard me talking about building my very own 3D printer.  Well the work has begun, albeit a little bit slower then I expected.  I have done a lot of research over the past month or so on printer design and I settled on building a modified Delta based printer.</p>
+
+<p>The initial plan is to try and build as much of this as I can by myself from scratch and then use itself to make improvements.  This has required quite a bit of re thinking and changing materials to make life a bit easier.</p>
+
+<p>Sourcing the supplies has been interesting, especially in Hobart but apart from the initial purchase of all the Electronics from <a href="http://stores.ebay.com.au/learcnc">http://stores.ebay.com.au/learcnc</a>, everything else I have been able to get locally.  The stainless steel rods I purchased from Stirlings <a href="http://www.stirlingsaustralia.com.au/application/contact/tasmania.html">http://www.stirlingsaustralia.com.au/application/contact/tasmania.html</a> and then cut the 6m rod down into the 65cm lengths I needed at home. Bunnings has come to the rescue for everything else.</p>
+
+<p>You can check out the pictures at my other blog - <a href="http://alkalinesblog.blogspot.com.au/">http://alkalinesblog.blogspot.com.au/</a></p>
+
+<p>OK, so for the rundown on what I have completed so far</p>
+
+<ol>
+  <li>Frame</li>
+  <li>All the boards with Tower supports</li>
+  <li>The actual tower runners with the arm rods</li>
+  <li>Sourced an ATX power supply with 2 x 18A 12v lines for power</li>
+  <li>The hotend holder plate with mounting points for the arms</li>
+</ol>
+
+<p>Next week I hope to have the motors mounted and at least the arms moving.</p>
+
+<p>Stay tuned for the next update or have a chat to me at any of the Wednesday night sessions if you want more info.</p>
+
+
+
+    <p>-- alkaline</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Mame console</span>
+    <span class="date">22 Nov 2014</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Today I powered up the Mame console.
+DO NOT ATTEMPT THIS
+The wiring is dodgy and there is an exposed crt monitor in there with loose electronics.</p>
+
+<p>Currently its using a pentium III</p>
+
+<p>I am looking into upgrading it to a Pi and LCD.</p>
+
+<p>Michael Sharman has done a great job wiring a keyboard controller to all the buttons and installing a menu driven by joystick, so I hope to copy that software and use on the pi.</p>
+
+<blockquote>
+  <p>Hey Joe, glad to see your using it, sorry, I should have given you guys a warning about the state of the electronics and exposed high voltages !! I forgot it was in a such a mess. Glad you like the keyboard controller, I still have the notes on how I did that kicking around somewhere. – Michael</p>
+</blockquote>
+
+
+    <p>-- jjbarrows</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Laptop DVD to HDD swap</span>
+    <span class="date">13 Oct 2014</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Swapping the internal DVD writer for a hard disk, using a caddy bought from China.</p>
+
+<p>My laptop is pretty zoomy with dual SSD in raid array, but lacks large storage capacity, but one of the advertised features was the ability to swap the optical drive for a hard drive ! I bought it with a view to doing exactly that.</p>
+
+<p>I had thought it would be a simple matter of buying a cheap caddy, install an hard disk and pop out the DVD and slide in the HDD (I had hoped for hot swap, since the connection is SATA this should be a problem).  When I got the laptop and looked up the price of the caddy it was three figures :( and looking at the laptop there was no option to hot swap (one of the screws holding the DVD was under the bottom panel, which was held inplace by multiple screws, one hidden under a “warranty void if removed” sticker (I’m not worried about that sticker as in Australia I have automatic Consumer Guarantees )</p>
+
+<p>I decided to check aliexpress for a cheaper option and found several, as at October 2014 selling for around $20, so I bought one, waited impatiently as it went via Russia for some reason, then installed it in a very simple operation detailed here.  I may open the laptop up again and add a hole to access the screw for easy swapping.</p>
+
+<p><a href="http://www.artwww.net/photo-gallery/optical-hard-disk-swap-laptop">http://www.artwww.net/photo-gallery/optical-hard-disk-swap-laptop</a></p>
+
+
+
+    <p>-- jjbarrows</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+
+    <span class="title">Love the Hackerspace!</span>
+    <span class="date">28 Jun 2014</span>
+
+  </div>
+  <div class="panel-body">
+    <p>Hi!</p>
+
+<p>I loved the concept of the Hackerspace when Joseph explained it to me and I was glad to be a founding member.  Changes in my life have lead to me having a lot more time on my hands, and I expect to be making good use of h-space from now on.  Since last wednesday, I have been able to put together a working HP/Compaq laptop with wifi and 2 DVD drives running an OLD* version of Ubuntu. A great little machine to use when out-and-about.</p>
+
+<p>Some time ago a few of us discussed what would be needed to make the place disability friendly.  Last wednesday my mouth dropped when I was told that a government rep. laughed when Hackerspace asked for help bringing the place ‘up-to-code’.  Yet I can understand that.  Certain aspects of the building make it impossible.  All of us who suffer from the disability of being tall will have to continue to suffer.</p>
+
+<p>Yet there is one change we could make that would benefit us all.  A long ramp at the back, and a trolley to enable us to move gear in and out without risk of back injury!</p>
+
+<p>[Hmmm.. can’t seem to upload image!! I’ll put it up soon]</p>
+
+<p>What do people think?</p>
+
+<p>Will</p>
+
+<p>*Pentium M in laptop doesn’t support PAE, so l am using v11.10.  If I let Ubuntu go ahead and update itself, is there a possibility it will update the kernel to a version which will not work?</p>
+
+
+
+    <p>-- iWill</p>
+  </div>
+</div>
+
+
+
+
+
+<div class="paginator">   
+    <ul class="pagination pagination-sm">
+
+      <li
+        
+        ><a href="/hhs/">&laquo;&laquo;</a>
+      </li>
+
+      <li
+        
+        ><a href="/hhs/page2">&laquo;</a>
+      </li>
+
+      <li >
+        <a href="/hhs/">1</a>
+      </li>
+      
+        <li >
+            <a href="/hhs/page2/">2</a>
+        </li>
+      
+        <li class="active">
+            <a href="/hhs/page3/">3</a>
+        </li>
+      
+        <li >
+            <a href="/hhs/page4/">4</a>
+        </li>
+      
+
+      <li
+        
+        ><a href="">&raquo;</a>
+      </li>
+
+      <li
+        
+        ><a href="/hhs/page4/">&raquo;&raquo;</a>
+      </li>
+
+    </ul> 
+</div>
+
+<!--div class="paginator">
+        
+        
+  
+    <a href="/hhs/page2">Previous</a>
+  
+
+  | <span>Page: 3 of 4</span> |
+
+  
+    <a href="/hhs/page4" class="next">Next</a>
+  
+
+</div-->
+
+
+            </div>
+        </main>
+
+    </div> <!-- /container -->
+        
+    <div class="footer" >
+        <div class="container">
+            <div class="pull-left">
+                <a href="//www.facebook.com/hobarthackerspace">Facebook</a><br />
+                <a href="//twitter.com/hobhackerspace">Twitter</a>
+            </div>
+
+            <address class="text-right">
+              <strong>Hobart Hackerspace Inc.</strong><br />
+              2 St. Johns Avenue,<br />
+              New Town,<br />
+              Tasmania 7008<br />
+              <abbr title="Australian Business Number">ABN:</abbr> 68 986 261 687
+            </address>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+  </body>
+</html>
+
