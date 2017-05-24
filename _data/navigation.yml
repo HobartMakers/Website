@@ -1,0 +1,32 @@
+
+- link: /
+  name: Home
+
+# News
+
+- link: /liveblog/
+  name: Liveblog
+
+
+# Get Involved
+
+- link: https://hobartmakers.tidyhq.com/public/memberships/new
+  name: Join
+
+- link: /donate/
+  name: Donate
+
+- link: /events/
+  name: Events
+
+
+# More Info
+
+- link: /faq/
+  name: FAQ
+
+- link: /equipment/
+  name: Equipment
+
+- link: /contact/
+  name: Contact
