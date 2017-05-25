@@ -22,7 +22,7 @@ These are listed on our [Facebook events list](https://www.facebook.com/groups/h
 
 | Date          | Workshop                                                  | Facilitator                   |
 |---------------|-----------------------------------------------------------|-------------------------------|
-| 25 May 2017   | Cider Making                                              | Craig Marshall                |
+|~~25 May 2017~~|~~Cider Making~~                                           |~~Craig Marshall~~             |
 | 8 June 2017   | Chinese Brush Painting                                    | Alvin Cooke                   |
 | 15 June 2017  | No workshop (TasLUG meeting)                              | Scott Bragg                   |
 | 22 June 2017  | Electronic for beginners (date to be confirmed)           | Ray Thomas                    |
