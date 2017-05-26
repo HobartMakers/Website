@@ -1,46 +1,26 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+    <!--div class="footer row">
+      <div class="col-md-2 col-md-offset-5 text-center">
+        <a href="https://fb.me/HobartMakers"><img src="/assets/images/social-facebook.png" class="socmed-icon"></a>
+        <a href="http://twitter.com/HobartMakers"><img src="/assets/images/social-twitter.png" class="socmed-icon"></a>
+        <a href="mailto:info@hobartmakers.com"><img src="/assets/images/social-mail.png" class="socmed-icon"></a>
       </div>
+    </div-->
+    <div class="footer" >
+        <div class="container">
+            <div class="pull-left">
+                <a href="https://riot.im/app/#/room/#hobartmakers:matrix.org"><img src="/assets/images/social-riot.png" class="socmed-icon" title="Matrix Chat"></a>
+                <a href="https://fb.me/HobartMakers"><img src="/assets/images/social-facebook.png" class="socmed-icon" title="Facebook"></a>
+                <a href="mailto:info@hobartmakers.com"><img src="/assets/images/social-mail.png" class="socmed-icon" title="Email"></a>
+            </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+            <address class="text-right">
+              <strong>Hobart Makers Inc.</strong><br />
+              <a href="https://goo.gl/maps/bDc617cT3qo">
+              Building 1831 South,<br />
+              New Town,<br />
+              Tasmania 7002</a><br />
+              <abbr title="Australian Business Number">ABN:</abbr> <a href="https://abr.business.gov.au/SearchByAbn.aspx?abn=37633101451">37 633 101 451</a>
+            </address>
+        </div>
     </div>
 
-  </div>
-
-</footer>

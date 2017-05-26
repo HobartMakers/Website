@@ -6,103 +6,100 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/bootstrap-flat.css" >
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" >
     <link rel="stylesheet" href="/assets/css/site.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/2.2.7/assets/css/emojione.min.css"/>
-<link rel="stylesheet" type="text/css" href="https://live.hello-matrix.net/matrix-live.css">
+    <link rel="stylesheet" type="text/css" href="https://live.hello-matrix.net/matrix-live.css">
 </head>
+
 <body>
-  <div class="container">
+    <div class="container">
 
-    <div class="header clearfix">
-        <div class="col-md-8 col-md-offset-2">
-            <nav>
-  <ul class="nav nav-pills pull-right">
+          <nav class="navbar navbar-default voffset-20">
+    <div class="container-fluid">
 
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+            aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand">
+            <a href="/">
+                <h3 style="display:none;">Hobart Makers Inc.</h3>
+                <img src="/assets/images/HobartMakers262x70.png" height="70" />
+            </a>
+        </span>
+      </div>
 
-    <li role="presentation" >
-      <a href="/">Home</a>
-    </li>
-  
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li ><a href="/liveblog/">Liveblog</a></li>
-        <li ><a href="/news/">News</a></li>
-      </ul>
-    </li>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav" style="white-space: nowrap">
 
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="https://hobartmakers.tidyhq.com/public/memberships/new">Join</a></li>
-        <li ><a href="/donate/">Donate</a></li>
-        <li ><a href="/events/">Events</a></li>
-      </ul>
-    </li>
+            <li >
+                <a href="/">
+                    Home 
+                </a>
+            </li>
 
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Info <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li ><a href="/faq/">FAQ</a></li>
-        <li ><a href="/equipment/">Equipment</a></li>
-        <li ><a href="/contact/">Contact</a></li>
-      </ul>
-    </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                    aria-expanded="false">News<span class="caret"></span></a>
 
-  <!--
-  
-    <li role="presentation" >
-      <a href="/">Home</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/liveblog/">Liveblog</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="https://hobartmakers.tidyhq.com/public/memberships/new">Join</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/donate/">Donate</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/events/">Events</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/faq/">FAQ</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/equipment/">Equipment</a>
-    </li>
-  
-    <li role="presentation" >
-      <a href="/contact/">Contact</a>
-    </li>
-  
-  -->
+                <ul class="dropdown-menu">
+                    <li >
+                        <a href="/liveblog/">Liveblog</a>
+                    </li>
+                    <li >
+                        <a href="/news/">News</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li >
+                <a href="/events/">
+                    Events
+                </a>
+            </li>
 
 
-  </ul>
-</nav>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                    aria-expanded="false">More Info<span class="caret"></span></a>
+
+                <ul class="dropdown-menu">
+                    <li >
+                        <a href="/faq/">FAQ</a>
+                    </li>
+                    <li >
+                        <a href="/equipment/">Equipment</a>
+                    </li>
+                    <li >
+                        <a href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="https://hobartmakers.tidyhq.com/public/memberships/new" class="btn btn-default navbar-btn">Join</a>
+            </li>
+            <li>
+                <a href="/donate/" class="btn btn-default navbar-btn">Donate</a>
+            </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+  </nav>
 
 
-            <h3 style="display:none;">Hobart Makers Inc.</h3>
-            <img src="/assets/images/HobartMakersMainLogo.png" width="200" style="margin-left: -10px" />
-        </div>
-    </div>
 
-
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 voffset-20">
-
-        <article class="post">
+        <div class="row">
+            <div class="col-md-12 voffset-20">
+            <article class="post">
 
   <header class="post-header">
     <h1 class="post-title">About</h1>
@@ -127,17 +124,37 @@
 
 </article>
 
-
-      </div>
+            </div>
+        </div>
     </div>
-    <div class="footer row">
+
+        <!--div class="footer row">
       <div class="col-md-2 col-md-offset-5 text-center">
         <a href="https://fb.me/HobartMakers"><img src="/assets/images/social-facebook.png" class="socmed-icon"></a>
         <a href="http://twitter.com/HobartMakers"><img src="/assets/images/social-twitter.png" class="socmed-icon"></a>
         <a href="mailto:info@hobartmakers.com"><img src="/assets/images/social-mail.png" class="socmed-icon"></a>
       </div>
+    </div-->
+    <div class="footer" >
+        <div class="container">
+            <div class="pull-left">
+                <a href="https://riot.im/app/#/room/#hobartmakers:matrix.org"><img src="/assets/images/social-riot.png" class="socmed-icon" title="Matrix Chat"></a>
+                <a href="https://fb.me/HobartMakers"><img src="/assets/images/social-facebook.png" class="socmed-icon" title="Facebook"></a>
+                <a href="mailto:info@hobartmakers.com"><img src="/assets/images/social-mail.png" class="socmed-icon" title="Email"></a>
+            </div>
+
+            <address class="text-right">
+              <strong>Hobart Makers Inc.</strong><br />
+              <a href="https://goo.gl/maps/bDc617cT3qo">
+              Building 1831 South,<br />
+              New Town,<br />
+              Tasmania 7002</a><br />
+              <abbr title="Australian Business Number">ABN:</abbr> <a href="https://abr.business.gov.au/SearchByAbn.aspx?abn=37633101451">37 633 101 451</a>
+            </address>
+        </div>
     </div>
-  </div>
+
+
 
 <script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

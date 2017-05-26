@@ -1,46 +1,79 @@
-<nav>
-  <ul class="nav nav-pills pull-right">
+  <nav class="navbar navbar-default voffset-20">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+            aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand">
+            <a href="{{ "/" | relative_url }}">
+                <h3 style="display:none;">Hobart Makers Inc.</h3>
+                <img src="/assets/images/HobartMakers262x70.png" height="70" />
+            </a>
+        </span>
+      </div>
+
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav" style="white-space: nowrap">
+
+            <li {% if '/' == page.url %}class="active"{% endif %}>
+                <a href="/">
+                    Home 
+                </a>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                    aria-expanded="false">News<span class="caret"></span></a>
+
+                <ul class="dropdown-menu">
+                    <li {% if '/liveblog/' == page.url %}class="active"{% endif %}>
+                        <a href="/liveblog/">Liveblog</a>
+                    </li>
+                    <li {% if '/news/' == page.url %}class="active"{% endif %}>
+                        <a href="/news/">News</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li {% if '/events/' == page.url %}class="active"{% endif %}>
+                <a href="/events/">
+                    Events
+                </a>
+            </li>
 
 
-    <li role="presentation" {% if '/' == page.url %}class="active"{% endif %}>
-      <a href="/">Home</a>
-    </li>
-  
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li {% if '/liveblog/' == page.url %}class="active"{% endif %}><a href="/liveblog/">Liveblog</a></li>
-        <li {% if '/news/' == page.url %}class="active"{% endif %}><a href="/news/">News</a></li>
-      </ul>
-    </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                    aria-expanded="false">More Info<span class="caret"></span></a>
 
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="https://hobartmakers.tidyhq.com/public/memberships/new">Join</a></li>
-        <li {% if '/donate/' == page.url %}class="active"{% endif %}><a href="/donate/">Donate</a></li>
-        <li {% if '/events/' == page.url %}class="active"{% endif %}><a href="/events/">Events</a></li>
-      </ul>
-    </li>
+                <ul class="dropdown-menu">
+                    <li {% if '/faq/' == page.url %}class="active"{% endif %}>
+                        <a href="/faq/">FAQ</a>
+                    </li>
+                    <li {% if '/equipment/' == page.url %}class="active"{% endif %}>
+                        <a href="/equipment/">Equipment</a>
+                    </li>
+                    <li {% if '/contact/' == page.url %}class="active"{% endif %}>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </li>
 
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Info <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li {% if '/faq/' == page.url %}class="active"{% endif %}><a href="/faq/">FAQ</a></li>
-        <li {% if '/equipment/' == page.url %}class="active"{% endif %}><a href="/equipment/">Equipment</a></li>
-        <li {% if '/contact/' == page.url %}class="active"{% endif %}><a href="/contact/">Contact</a></li>
-      </ul>
-    </li>
-
-  <!--
-  {% for item in site.data.navigation %}
-    <li role="presentation" {% if item.link == page.url %}class="active"{% endif %}>
-      <a href="{{ item.link }}">{{ item.name }}</a>
-    </li>
-  {% endfor %}
-  -->
-
-
-  </ul>
-</nav>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="https://hobartmakers.tidyhq.com/public/memberships/new" class="btn btn-default navbar-btn">Join</a>
+            </li>
+            <li>
+                <a href="/donate/" class="btn btn-default navbar-btn">Donate</a>
+            </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+  </nav>
 
