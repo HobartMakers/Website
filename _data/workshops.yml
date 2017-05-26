@@ -1,10 +1,93 @@
+- date: 7th March 2017
+  workshop: Crochet for beginners
+  facilitator: Megan Marshall
+  archived: Yes
 
-  <!--
-  {% for item in site.data.navigation %}
-    <li role="presentation" {% if item.link == page.url %}class="active"{% endif %}>
-      <a href="{{ item.link }}">{{ item.name }}</a>
-    </li>
-  {% endfor %}
-  -->
+- date: 25th May 2017
+  workshop: Cider Making - The Basics
+  facilitator: Craig Marshall
+  archived: Yes
+
+
+
+- date: 8th June 2017
+  workshop: Chinese Brush Painting
+  facilitator: Alvin Cooke
+  archived: No
+
+- date: 15th June 2017 
+  workshop: No Workshop -- TasLUG Meeting
+  facilitator: Scott Bragg
+  archived: No
+
+- date: 22nd June 2017
+  workshop: Electronics for beginners
+  facilitator: Ray Thomas
+  archived: No
+
+- date: 29th June 2017 (Date tbc) 
+  workshop: Card game development
+  facilitator: Paul Attrill
+  archived: No
+
+- date: TBA 
+  workshop: LoRa and the IoT (Long range radio and the internet of things)
+  facilitator: Scott Bragg
+  archived: No
+
+- date: TBA
+  workshop: Stitchmarker Making 
+  facilitator: Sarah
+  archived: No
+
+- date: TBA
+  workshop: OpenSCAD 
+  facilitator: Mike Rodway
+  archived: No
+
+- date: TBA
+  workshop: Video Game Development 
+  facilitator: Paul Attrill
+  archived: No
+
+- date: TBA
+  workshop: Robotics 
+  facilitator: Leo Febey
+  archived: No
+
+- date: TBA 
+  workshop: Yarn Dying 
+  facilitator: Megan Marshall
+  archived: No
+
+- date: TBA
+  workshop: Sewing 
+  facilitator: Emma Poynton
+  archived: No
+
+- date: TBA 
+  workshop: Knitting 
+  facilitator: Emma Poynton
+  archived: No
+
+- date: TBA
+  workshop: Soldering 
+  facilitator: Michael Emery or Craig Marshall
+  archived: No
+
+- date: TBA
+  workshop: Inkscape 
+  facilitator: Craig Marshall
+  archived: No
+
+- date: TBA
+  workshop: Crochet
+  facilitator: Megan Marshall
+  archived: No
+
+- date: TBA
+  workshop: Basic Woodworking
+  facilitator: Craig Marshall
+  archived: No
 
 
