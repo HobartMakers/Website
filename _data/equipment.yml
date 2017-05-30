@@ -1,0 +1,31 @@
+- name: CTC 3D Printer
+  person: Michael R
+  status: Working
+
+- name: K40 Laser Cutter
+  person: Scott B
+  status: Working
+
+- name: Shapeoko 3D Router
+  person: Craig M
+  status: Basically working - needs improving
+
+- name: Golden Wheel Sewing Machine
+  person: Michael E
+  status: Being repaired
+
+- name: Singer Sewing Machine
+  person: Michael E
+  status: Working
+
+- name: Electronics Workstation
+  person: Mary M
+  status: Working
+
+- name: NEC Projector
+  person: Craig M / Bob P
+  status: Working
+
+- name: General Workshop Tools/Storage
+  person: Craig M
+  status: Needs work
