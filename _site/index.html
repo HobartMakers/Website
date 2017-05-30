@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" >
     <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/responsiveslides.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/2.2.7/assets/css/emojione.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://live.hello-matrix.net/matrix-live.css">
 </head>
@@ -104,6 +105,64 @@
             <div class="col-md-12 voffset-20">
             <h1 id="welcome">Welcome</h1>
 
+<div class="pull-right" style="max-width:600px; padding-bottom:30px; margin-left:10px; margin-right:10px;">
+
+<ul class="rslides">
+  <li>
+   <img src="/assets/images/antenna-rotator.jpg" alt="" />
+   <p class="caption">Scott's antenna rotator</p>
+  </li>
+  <li>
+   <img src="/assets/images/antenna-rotator-2.jpg" alt="" />
+   <p class="caption">Scott's antenna rotator gearbox</p>
+  </li>
+  <li>
+   <img src="/assets/images/cheese-wedge.jpg" alt="" />
+   <p class="caption">Craig's cheesey door wedge</p>
+  </li>
+  <li>
+   <img src="/assets/images/cider-making.jpg" alt="" />
+   <p class="caption">Cider making</p>
+  </li>
+  <li>
+   <img src="/assets/images/cider-making-2.jpg" alt="" />
+   <p class="caption">Cider making</p>
+  </li>
+  <li>
+   <img src="/assets/images/corner-to-corner-blanket.jpg" alt="" />
+   <p class="caption">Emma's corner-to-corner blanket</p>
+  </li>
+  <li>
+   <img src="/assets/images/esp-boards.jpg" alt="" />
+   <p class="caption">Some new ESP development boards</p>
+  </li>
+  <li>
+   <img src="/assets/images/group.jpg" alt="" />
+   <p class="caption">A group shot</p>
+  </li>
+  <li>
+   <img src="/assets/images/lasercutter.jpg" alt="" />
+   <p class="caption">Our laser cutter</p>
+  </li>
+  <li>
+   <img src="/assets/images/lipbalm.jpg" alt="" />
+   <p class="caption">Megan's lipbalm making demo</p>
+  </li>
+  <li>
+   <img src="/assets/images/model-plane.jpg" alt="" />
+   <p class="caption">Katie's model plane</p>
+  </li>
+  <li>
+   <img src="/assets/images/robotics.jpg" alt="" />
+   <p class="caption">Peter's robotics project</p>
+  </li>
+  <li>
+   <img src="/assets/images/sewing-machines.jpg" alt="" />
+   <p class="caption">Michael's sewing machines</p>
+  </li>
+</ul>
+</div>
+
 <p>We are a group of people that love <a href="https://en.wikipedia.org/wiki/Maker_culture">making</a> things. We are based in Hobart, Tasmania and we welcome people of any age, gender, skill level and from any background.</p>
 
 <p>We are run by a team of five (Craig, Scott, Michael, Paul and Mary). Overall, we have 17 members and counting. Please <a href="https://hobartmakers.tidyhq.com/public/memberships/new">join us</a>! :smiley:</p>
@@ -153,6 +212,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://live.hello-matrix.net/matrix-live-min.js"></script>
+<script src="/assets/js/responsiveslides.js"></script>
 <script type="text/javascript">
      $(document).ready(function() {
         $("p, h3").each(function() {
@@ -160,6 +220,23 @@
             // use .shortnameToImage if only converting shortnames (for slightly better performance)
             var converted = emojione.toImage(original);
             $(this).html(converted);
+        });
+
+        $(".rslides").responsiveSlides({
+          auto: true,             // Boolean: Animate automatically, true or false
+          speed: 1000,            // Integer: Speed of the transition, in milliseconds
+          timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+          pager: false,           // Boolean: Show pager, true or false
+          nav: false,             // Boolean: Show navigation, true or false
+          random: true,          // Boolean: Randomize the order of the slides, true or false
+          pause: true,           // Boolean: Pause on hover, true or false
+          pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+          prevText: "Previous",   // String: Text for the "previous" button
+          nextText: "Next",       // String: Text for the "next" button
+          maxwidth: "600",           // Integer: Max-width of the slideshow, in pixels
+          navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+          manualControls: "",     // Selector: Declare custom pager navigation
+          namespace: "rslides",   // String: Change the default namespace used
         });
 
         $("table").addClass("table");

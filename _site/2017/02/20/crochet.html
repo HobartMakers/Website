@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" >
     <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/responsiveslides.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/2.2.7/assets/css/emojione.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://live.hello-matrix.net/matrix-live.css">
 </head>
@@ -159,6 +160,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://live.hello-matrix.net/matrix-live-min.js"></script>
+<script src="/assets/js/responsiveslides.js"></script>
 <script type="text/javascript">
      $(document).ready(function() {
         $("p, h3").each(function() {
@@ -166,6 +168,23 @@
             // use .shortnameToImage if only converting shortnames (for slightly better performance)
             var converted = emojione.toImage(original);
             $(this).html(converted);
+        });
+
+        $(".rslides").responsiveSlides({
+          auto: true,             // Boolean: Animate automatically, true or false
+          speed: 1000,            // Integer: Speed of the transition, in milliseconds
+          timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+          pager: false,           // Boolean: Show pager, true or false
+          nav: false,             // Boolean: Show navigation, true or false
+          random: true,          // Boolean: Randomize the order of the slides, true or false
+          pause: true,           // Boolean: Pause on hover, true or false
+          pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+          prevText: "Previous",   // String: Text for the "previous" button
+          nextText: "Next",       // String: Text for the "next" button
+          maxwidth: "600",           // Integer: Max-width of the slideshow, in pixels
+          navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+          manualControls: "",     // Selector: Declare custom pager navigation
+          namespace: "rslides",   // String: Change the default namespace used
         });
 
         $("table").addClass("table");
