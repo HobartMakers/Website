@@ -4,7 +4,9 @@ title: Equipment
 permalink: /equipment/
 ---
 
-### Current Equipment
+<h3>Current Equipment</h3>
+
+<p>We'll do our best to keep this list up to date, but if you notice anything out of date, please <a href="/contact/">get in touch</a></p>
 
 <table class="table">
  <thead>
@@ -26,11 +28,5 @@ permalink: /equipment/
 
   </tbody>
 </table>
-
-### Wishlist
-
-| Item                          |
-|-------------------------------|
-| Digital Oscilloscope          |
 
 
