@@ -41,3 +41,9 @@ Our membership fees are very flexible. We suggest $20/month, but you can pay wha
 
 We hope you can place some trust in us to provide what you need, and in return we'll trust you to pay whatever you can afford.
 
+### :thumbs_up: Do you have "Working with Vulnerable People" cards?
+
+All five of our committee members either have the card already, or has applied and been approved to recieve a card - and those cards are on the way. 
+
+We encourage anyone that wants to train a workshop where children or other vulnerable people are around, to obtain a card too.
+
