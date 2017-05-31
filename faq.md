@@ -43,7 +43,7 @@ We hope you can place some trust in us to provide what you need, and in return w
 
 ### :thumbsup: Do you have "Working with Vulnerable People" cards?
 
-All five of our committee members either have the card already, or has applied and been approved to recieve a card - and those cards are on the way. 
+Each of our five committee members either have the card already, or have applied and been approved to recieve a card - and those cards are on the way.
 
-We encourage anyone that wants to train a workshop where children or other vulnerable people are around, to obtain a card too.
+We encourage anyone that wants to lead a workshop where children or other vulnerable people are present, to obtain a card too.
 
