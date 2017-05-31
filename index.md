@@ -10,8 +10,9 @@ members: 17
 <div class="pull-right" style="max-width:600px; padding-bottom:30px; margin-left:10px; margin-right:10px;">
 <ul class="rslides">
 
-{% for item in site.data.slides %}
+{% for item in site.data.photos %}
 
+  {% if item.featured %}
   <li>
   {% if item.url %}
   <a href="{{ item.url }}">
@@ -22,6 +23,7 @@ members: 17
   {% endif %}
   <p class="caption">{{ item.caption }}</p>
   </li>
+  {% endif %}
 
 {% endfor %}
 
