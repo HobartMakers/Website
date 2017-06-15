@@ -12,7 +12,6 @@ permalink: /events/
 * Open nights are every Tuesday from 6pm - 9pm, and we welcome everyone!
 
 * Side-projects Saturday is _usually_ every second Saturday afternoon. Double check in the [chatroom](https://riot.im/app/#/room/#hobartmakers:matrix.org) or check the [facebook events list](https://www.facebook.com/groups/hobartmakers/events/) to make sure. The goal is to bring an incomplete project and get some work done!
-i
 
 ## National Science Week 2017
 
