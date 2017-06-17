@@ -20,6 +20,7 @@
 
 - item: Pliers
   notes: e.g. Side cutters, combination pliers, long nose pliers, round nose pliers
+  granted: Yes
 
 - item: Saw
   notes: Electric jigsaw with wood cutting blades
@@ -45,6 +46,7 @@
 - item: Nicer digital multimeter
 
 - item: Wire strippers
+  granted: Yes
 
 - item: Cups for kitchen
 
