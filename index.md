@@ -2,7 +2,7 @@
 layout: default
 title: Welcome
 permalink: /
-members: 18
+members: 17
 ---
 
 # {{ page.title }}
