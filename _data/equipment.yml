@@ -4,7 +4,7 @@
 
 - name: K40 Laser Cutter
   person: Scott B
-  status: Working
+  status: Working - Config available <a href="https://github.com/HobartMakers/LaserConfig">here</a>
 
 - name: Shapeoko 3D Router
   person: Craig M
