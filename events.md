@@ -38,7 +38,11 @@ These are also listed on our [Facebook events list](https://www.facebook.com/gro
    <tr>
   {% endif %}
    <td>{{ item.date }}</td>
+  {% if item.url %}
+   <td><a href="{{ item.url }}" target="_blank">{{ item.workshop }}</a></td>
+  {% else %}
    <td>{{ item.workshop }}</td>
+  {% endif %}
    <td>{{ item.facilitator }}</td>
    </tr>
 {% endfor %}
