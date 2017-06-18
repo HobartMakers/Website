@@ -1,54 +1,103 @@
 - item: A Larger Makerspace 
   notes: Our most important need is for a large, low-cost or free warehouse or building suitable to use as a makerspace. If you are able to help in some way, please contact us!
-  granted: No
 
 - item: Digital Oscilloscope
   notes: We have just received a 40MHz Cathode Ray Oscilloscope (and other great instruments) from the lovely folks at Battery Shed/Innovation Circle. But a digital one would be nice too.
-  granted: No
 
 - item: Rack-style powerboard
+  notes: Craig has one - just needs to bring it in
+
+- item: Oscilloscope probes
+  notes: We have three instruments with BNC connectors now, but only one probe
+
+- item: Big spool of rosin-core solder
 
 - item: Powerboards with switches
+  notes: 2 for $20 at bunnings, for behind laser cutter - switchable to control fans and pumps
 
-- item: Wastepaper baskets
-
-- item: Stanley knife
+- item: Wastepaper baskets x 2
+  notes: One for each room
 
 - item: Scraper plus blades
+  notes: Suggested by Ray for removing labels, stickers, etc.
 
 - item: Wide but shallow shelving for electronics desk
+  notes: Craig has taken measurements and is designing a shelving system
+
+- item: Legs for the metal pegboard
+  notes: Craig has taken measurements
+
+- item: Saw
+  notes: Electric jigsaw with wood cutting blades - we have bought a second hand one, just needs to test it and bring in
+
+- item: Cordless drill
+
+- item: Drill bit set
+
+- item: Dremel
+  notes: We have one being donated - and we bought some accessories for it
+
+- item: BluTack
+  notes: Great for use as a third hand for soldering etc.
+
+- item: Metal to go under laser cutter hole
+  notes: We have some - just need to cut to size and rivet in place
+
+- item: Capacitor kit - ceramic and electrolytic
+
+- item: General test leads - banana plugs, alligator clips, etc.
+
+- item: Heatshrink selection
+
+- item: Selection of M3 nuts and bolts
+
+- item: Brass wire wool soldering iron cleaner - making do with a bit of cleaning sponge right now
+
+- item: File(s)
+  notes: flat and round, coarse and smooth
+
+- item: Workbench
+  notes: Needs to be very sturdy - we'll make one when the sewing machines vacate the area
+
+- item: Vise
+  notes: Large, bolt-on type - we have one - it's being restored and repainted
+
+- item: Nicer digital multimeter
+
+- item: Cups for kitchen
+
+- item: Racks for allen keys, screwdrivers, etc.
+  notes: Like the plastic ones from bunnings $7
+
+
+
+- item: Stanley knife
+  granted: Yes
+
+- item: Wire strippers
+  granted: Yes
+
+- item: Hacksaw
+  notes: (and blades)
+  granted: Yes
+
+- item: Combination square
+  granted: Yes
+
+- item: Tape measure
+  granted: Yes
 
 - item: Pliers
   notes: e.g. Side cutters, combination pliers, long nose pliers, round nose pliers
   granted: Yes
 
-- item: Saw
-  notes: Electric jigsaw with wood cutting blades
-
-- item: Marking square
-
-- item: Drill bit set
-
-- item: Cordless drill
-
-- item: File(s)
-  notes: flat and round, coarse and smooth
-
-- item: Hacksaw
-  notes: (and blades)
-
-- item: Workbench
-  notes: Needs to be very sturdy
-
-- item: Vise
-  notes: Large, bolt-on type
-
-- item: Nicer digital multimeter
-
-- item: Wire strippers
+- item: Resistor book (Sparkfun)
+  notes: Actually we made one, using Scott's donation of resistors
   granted: Yes
 
-- item: Cups for kitchen
+- item: General components (LEDs, resistors, buzzers, piezos, jumpers, mini-breadboards, etc. etc.)
+  notes: Thanks Scott Faulkner!
+  granted: Yes
 
-- item: Racks for allen keys, screwdrivers, etc.
-
+- item: Component storage
+  granted: Yes
