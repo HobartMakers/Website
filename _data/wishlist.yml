@@ -60,7 +60,7 @@
   notes: Needs to be very sturdy - we'll make one when the sewing machines vacate the area
 
 - item: Vise
-  notes: We have one suitable for electronics now, but also need a large, bolt-on type - Update: we have one - it's being restored and repainted
+  notes: We have one suitable for electronics now, but also need a large, bolt-on type - Update! we have one - it's being restored and repainted
 
 - item: Nicer digital multimeter
 
@@ -100,4 +100,20 @@
   granted: Yes
 
 - item: Component storage
+  granted: Yes
+
+- item: Oscilloscope
+  notes: Thanks Joe and James at Battery Shed!
+  granted: Yes
+
+- item: Function generator
+  notes: Thanks Joe and James at Battery Shed!
+  granted: Yes
+
+- item: Variable DC Power Supply
+  notes: Thanks Joe and James at Battery Shed!
+  granted: Yes
+
+- item: Microscope
+  notes: Thanks Joe and James at Battery Shed!
   granted: Yes
