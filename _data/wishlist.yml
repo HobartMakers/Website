@@ -27,16 +27,6 @@
 - item: Legs for the metal pegboard
   notes: Craig has taken measurements
 
-- item: Saw
-  notes: Electric jigsaw with wood cutting blades - we have bought a second hand one, just needs to test it and bring in
-
-- item: Cordless drill
-
-- item: Drill bit set
-
-- item: Dremel
-  notes: We have one being donated - and we bought some accessories for it
-
 - item: BluTack
   notes: Great for use as a third hand for soldering etc.
 
@@ -124,3 +114,19 @@
 
 - item: Better signage for the sandwich board
   granted: Yes
+
+- item: Circular saw
+
+- item: Jigsaw
+  notes: Electric jigsaw with wood cutting blades
+  granted: Yes
+
+- item: Cordless drill + batteries
+  granted: Yes
+
+- item: Drill and driver bit set
+  granted: Yes
+
+- item: Dremel (or clone)
+  granted: Yes
+
