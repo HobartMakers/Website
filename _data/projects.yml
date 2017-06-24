@@ -1,7 +1,7 @@
 - project: Laser Cutter Upgrade 
   lead: Scott F
   description: Upgrade the inner workings of the laser cutter to use a Raspberry pi, a Arduino/GRBL PiHat, and Laserweb running on the pi.
-  status: The upgrade is complete and everything works perfectly, and is usable. Next stage is to design and fabricate a PCB that houses all the functionality and connectors inside the machine, to neaten everything up.
+  status: The upgrade is complete and everything works perfectly, and is usable. Next stage is to design and fabricate a PCB that houses all the functionality and connectors inside the machine, to neaten everything up and improve safety.
 
 - project: T-shirt printing
   lead: Mary
@@ -23,7 +23,28 @@
   description: Make a tripod with computerised motor-control of its direction and orientation
   status: Parts have been printed, and a tripod has been built - awaiting wiring and firmware completion and testing (to be confirmed - Scott?)
 
+- project: Alpaca-wool blend jumper
+  lead: Sarah
+  description: Make a jumper (this is a big job!) on straight needles, in pieces.
+  status: In progress. More than 10% done, less than 50% (please confirm, Sarah)
+
 - project: Signage
   lead: Mary
   description: Improve the flipchart stand that we're using as a sandwich board. Needs a battery powered light, a big laminated printed logo, and an add-on scrolling LED unit (WS2812 based?) that can display custom messages. If we can set those messages via wifi - all the better!
   status: We have the printed sign, we have the light - it needs to be modded to run off the 12V SLA batteries Bob ordered. Mary has all the parts for the scrolling LED unit, and it's being built up on perf board. Almost done!
+
+- project: LoRa gateway and IoT devices
+  lead: Scott
+  description: Make some sensors and LoRa comms easy to use. Also produce a workshop for National Science Week around this topic
+  status: Software development in progress waiting on more parts to arrive
+
+- project: "Find your fade" shawl
+  lead: Emma
+  description: Make a shawl that highlights hand-dyed yarn. 
+  status: Around about 15% done. Progress photos coming soon!
+
+- project: "2 at a time" ribbed socks. In regia self-striping sock yarn
+  lead: Megan
+  description: Make some socks for Heather that are made "2 at a time" - the ideal way to make two identical socks :)
+  status: Over half-done!
+
