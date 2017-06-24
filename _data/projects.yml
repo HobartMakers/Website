@@ -1,0 +1,20 @@
+- project: Laser Cutter Upgrade 
+  lead: Scott F
+  description: Upgrade the inner workings of the laser cutter to use a Raspberry pi, a Arduino/GRBL PiHat, and Laserweb running on the pi.
+  status: The upgrade is complete and everything works perfectly, and is usable. Next stage is to design and fabricate a PCB that houses all the functionality and connectors inside the machine, to neaten everything up.
+
+- project: T-shirt printing
+  lead: Mary
+  description: Find a way to take orders and payment from members for screenprinted t-shirts, and print and deliver those t-shirts
+  status: All orders are now fulfilled. Ready to take some more orders!
+
+- project: Shapeoko tweaks
+  lead: Craig
+  description: The shapeoko is basically running, but needs limit switches, homing and e-stop added.
+  status: Part-way through. Anyone can jump in and help if there is interest. We have determined the pinout from the DB9 port on the controller, and just need to wire those into the physical switches and test. Next step will be to add a spindle. Michael has a spindle and power supply that need repairing, but that we can use for this project.
+
+- project: Electronics area upgrade
+  lead: Craig
+  description: The electronics and workshop area needs much better storage. Full-width, CRO-depth shelving above electonics workbench, and legs to hold the steel pegboard for general workshop tools.
+  status: Measurements have been taken. On the lookout for free or low-cost shelving that is 1.5m wide, 400mm deep, and anything up to 1.5m tall. We have the tools and expertise to modify existing shelving, or we could make some from scratch if we invest a bit of money into materials. As for the pegboard legs - Craig probably has materials to get started on this, just need some time to get started on the project.
+
