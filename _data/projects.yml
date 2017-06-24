@@ -18,3 +18,12 @@
   description: The electronics and workshop area needs much better storage. Full-width, CRO-depth shelving above electonics workbench, and legs to hold the steel pegboard for general workshop tools.
   status: Measurements have been taken. On the lookout for free or low-cost shelving that is 1.5m wide, 400mm deep, and anything up to 1.5m tall. We have the tools and expertise to modify existing shelving, or we could make some from scratch if we invest a bit of money into materials. As for the pegboard legs - Craig probably has materials to get started on this, just need some time to get started on the project.
 
+- project: Satnogs satellite rotator
+  lead: Scott F
+  description: Make a tripod with computerised motor-control of its direction and orientation
+  status: Parts have been printed, and a tripod has been built - awaiting wiring and firmware completion and testing (to be confirmed - Scott?)
+
+- project: Signage
+  lead: Mary
+  description: Improve the flipchart stand that we're using as a sandwich board. Needs a battery powered light, a big laminated printed logo, and an add-on scrolling LED unit (WS2812 based?) that can display custom messages. If we can set those messages via wifi - all the better!
+  status: We have the printed sign, we have the light - it needs to be modded to run off the 12V SLA batteries Bob ordered. Mary has all the parts for the scrolling LED unit, and it's being built up on perf board. Almost done!
