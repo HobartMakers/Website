@@ -38,13 +38,13 @@
   description: Make some sensors and LoRa comms easy to use. Also produce a workshop for National Science Week around this topic
   status: Software development in progress waiting on more parts to arrive
 
-- project: "Find your fade" shawl
+- project: Find-your-fade shawl
   lead: Emma
   description: Make a shawl that highlights hand-dyed yarn. 
   status: Around about 15% done. Progress photos coming soon!
 
-- project: "2 at a time" ribbed socks. In regia self-striping sock yarn
+- project: two-at-a-time ribbed socks. In regia self-striping sock yarn
   lead: Megan
-  description: Make some socks for Heather that are made "2 at a time" - the ideal way to make two identical socks :)
-  status: Over half-done!
+  description: Make some socks for Heather that are made together at the same time - the ideal way to make two identical socks
+  status: Over half-done
 
