@@ -16,34 +16,18 @@
   facilitator: Ray Thomas
   archived: Yes
 
-
-
 - date: 3rd July 2017
   workshop: Chinese Brush Painting (9 tickets sold)
   url: http://tdy.cl/se/lpVoO6E
   facilitator: Alvin Cooke
   archived: No
 
-
-- date: TBA
-  workshop: 3D Printing
-  facilitator: Mike Rodway
-  archived: No
-
-- date: TBA
-  workshop: Sewing (BYO machine!)
-  facilitator: Emma Poynton
-  archived: No
-
-- date: TBA
-  workshop: Card game development
-  facilitator: Paul Attrill
-  archived: No
-
-- date: TBA 
+- date: 17th August 2017 
   workshop: LoRa and the IoT (Long range radio and the internet of things)
   facilitator: Scott Bragg
   archived: No
+
+
 
 - date: TBA
   workshop: Stitchmarker Making 
@@ -51,13 +35,13 @@
   archived: No
 
 - date: TBA
-  workshop: OpenSCAD 
-  facilitator: Mike Rodway
+  workshop: Crochet or Drop Spindling
+  facilitator: Megan Marshall
   archived: No
 
 - date: TBA
-  workshop: Video Game Development 
-  facilitator: Paul Attrill
+  workshop: Soldering 
+  facilitator: Tutor volunteer needed
   archived: No
 
 - date: TBA
@@ -65,34 +49,53 @@
   facilitator: Leo Febey
   archived: No
 
-- date: TBA 
-  workshop: Yarn Dying 
-  facilitator: Megan Marshall
-  archived: No
+#- date: TBA 
+#  workshop: Yarn Dying 
+#  facilitator: Megan Marshall
+#  archived: No
 
-- date: TBA 
-  workshop: Knitting 
-  facilitator: Emma Poynton
-  archived: No
+#- date: TBA
+#  workshop: Inkscape 
+#  facilitator: Craig Marshall
+#  archived: No
 
-- date: TBA
-  workshop: Soldering 
-  facilitator: Michael Emery or Craig Marshall
-  archived: No
 
-- date: TBA
-  workshop: Inkscape 
-  facilitator: Craig Marshall
-  archived: No
+#- date: TBA
+#  workshop: Basic Woodworking
+#  facilitator: Craig Marshall
+#  archived: No
 
-- date: TBA
-  workshop: Crochet
-  facilitator: Megan Marshall
-  archived: No
 
-- date: TBA
-  workshop: Basic Woodworking
-  facilitator: Craig Marshall
-  archived: No
 
+
+
+#- date: TBA
+#  workshop: 3D Printing
+#  facilitator: Mike Rodway
+#  archived: No
+
+#- date: TBA
+#  workshop: OpenSCAD 
+#  facilitator: Mike Rodway
+#  archived: No
+
+#- date: TBA
+#  workshop: Sewing (BYO machine!)
+#  facilitator: Emma Poynton
+#  archived: No
+
+#- date: TBA 
+#  workshop: Knitting 
+#  facilitator: Emma Poynton
+#  archived: No
+
+#- date: TBA
+#  workshop: Card game development
+#  facilitator: Paul Attrill
+#  archived: No
+
+#- date: TBA
+#  workshop: Video Game Development 
+#  facilitator: Paul Attrill
+#  archived: No
 
