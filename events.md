@@ -17,7 +17,7 @@ permalink: /events/
 
 * We were lucky enough to receive funding to run a small event this year, we've chosen to demonstrate LoRa long range, low power radio - for connecting sensors to the Internet of Things. Check out our [National Science Week](/scienceweek/) page for more information.
 
-## Workshops and one-off events
+## Upcoming Workshops
 
 These are also listed on our [Facebook events list](https://www.facebook.com/groups/hobartmakers/events/) and our [TidyHQ events list](https://hobartmakers.tidyhq.com/public/schedule/events)
 
@@ -32,11 +32,8 @@ These are also listed on our [Facebook events list](https://www.facebook.com/gro
   <tbody>
 
 {% for item in site.data.workshops %}
-  {% if item.archived %}
-   <tr style='text-decoration:line-through'>
-  {% else %}
+  {% unless item.archived %}
    <tr>
-  {% endif %}
    <td>{{ item.date }}</td>
   {% if item.url %}
    <td><a href="{{ item.url }}" target="_blank">{{ item.workshop }}</a></td>
@@ -45,9 +42,39 @@ These are also listed on our [Facebook events list](https://www.facebook.com/gro
   {% endif %}
    <td>{{ item.facilitator }}</td>
    </tr>
+  {% endunless %}
 {% endfor %}
 
   </tbody>
 </table>
 
+
+## Past Workshops
+
+<table class="table">
+ <thead>
+   <tr>
+   <td>Date</td>
+   <td>Workshop</td>
+   <td>Facilitator</td>
+   </tr>
+  </thead>
+  <tbody>
+
+{% for item in site.data.workshops %}
+  {% if item.archived %}
+   <tr style='text-decoration:line-through'>
+   <td>{{ item.date }}</td>
+  {% if item.url %}
+   <td><a href="{{ item.url }}" target="_blank">{{ item.workshop }}</a></td>
+  {% else %}
+   <td>{{ item.workshop }}</td>
+  {% endif %}
+   <td>{{ item.facilitator }}</td>
+   </tr>
+  {% endif %}
+{% endfor %}
+
+  </tbody>
+</table>
 
