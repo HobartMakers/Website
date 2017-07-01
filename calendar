@@ -1,0 +1,20 @@
+---
+permalink: /calendar.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hobartmakers.com//NONSGML Event Calendar//EN
+METHOD:PUBLISH
+{% for event in site.data.workshops %}{% if event.start %}BEGIN:VEVENT
+UID:{{ event.start | date: "%Y%m%d" }}@hobartmakers.com
+ORGANIZER;CN="Hobart Makers Inc.":MAILTO:info@hobartmakers.com
+LOCATION:Building 1831 South, St. John's Avenue, New Town, Tas 7008
+{% if event.url %}URL:{{ event.url }}
+{% endif %}GEO:-42.8550;147.2973
+SUMMARY:{{ event.workshop }}
+CLASS:PUBLIC
+DTSTART:{{ event.start }}
+DTEND:{{ event.end }}
+DTSTAMP:{{ event.start }}Z
+END:VEVENT
+{% endif %}{% endfor %}END:VCALENDAR

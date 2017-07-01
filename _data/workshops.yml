@@ -1,107 +1,149 @@
-- date: 7th March 2017
-  workshop: Crochet for beginners (6 attendees)
-  url: https://hobartmakers.tidyhq.com/public/events/11388-crochet-for-beginners
-  facilitator: Megan Marshall
-  archived: Yes
+# Remember to validate generated ics file 
+# with this url:
+#
+# https://icalendar.org/validator.html
 
-- date: 25th May 2017
-  workshop: Cider Making - The Basics (8 attendees)
+- workshop: "Workshop: Crochet for beginners"
+  start: 20170307T183000
+  end: 20170307T210000
+  facilitator: Megan Marshall
+  notes: 6 Attendees
+
+- workshop: Open Night
+  start: 20170328T180000
+  end: 20170328T210000
+
+- workshop: Open Night
+  start: 20170404T180000
+  end: 20170404T210000
+
+- workshop: Open Night
+  start: 20170411T180000
+  end: 20170411T210000
+
+- workshop: Open Night
+  start: 20170418T180000
+  end: 20170418T210000
+
+- workshop: Open Night
+  start: 20170425T180000
+  end: 20170425T210000
+
+- workshop: Side Projects Saturday
+  start: 20170429T110000
+  end: 20170429T180000
+  
+- workshop: Open Night
+  start: 20170502T180000
+  end: 20170502T210000
+
+- workshop: Open Night
+  start: 20170509T180000
+  end: 20170509T210000
+
+- workshop: Side Projects Saturday
+  start: 20170513T103000
+  end: 20170513T170000
+
+- workshop: Open Night
+  start: 20170516T180000
+  end: 20170516T210000
+
+- workshop: Open Night
+  start: 20170523T180000
+  end: 20170523T210000
+
+- workshop: "Workshop: Cider Making - The Basics"
+  start: 20170525T190000
+  end: 20170525T210000
   url: http://tdy.cl/se/sgkyw3Y
   facilitator: Craig Marshall
-  archived: Yes
+  notes: 8 Attendees
 
-- date: 26th June 2017
-  workshop: Electronics for beginners (10 attendees)
+- workshop: Open Night
+  start: 20170530T180000
+  end: 20170530T210000
+
+- workshop: Side Projects Saturday
+  start: 20170603T120000
+  end: 20170603T170000
+
+- workshop: Open Night
+  start: 20170606T180000
+  end: 20170606T210000
+
+- workshop: Open Night
+  start: 20170613T180000
+  end: 20170613T210000
+
+- workshop: Saturday Crafternoon
+  start: 20170617T120000
+  end: 20170617T170000
+
+- workshop: Open Night
+  start: 20170620T180000
+  end: 20170620T210000
+
+- workshop: Screenprinting Demo
+  start: 20170624T140000
+  end: 20170624T160000
+
+- workshop: "Workshop: Electronics for beginners"
+  start: 20170626T183000
+  end: 20170626T203000
   url: http://tdy.cl/se/CAv4qYM
   facilitator: Ray Thomas
-  archived: Yes
+  notes: 10 Attendees
 
-- date: 3rd July 2017
-  workshop: Chinese Brush Painting (9 tickets sold)
+- workshop: Open Night and Show and Tell
+  start: 20170627T180000
+  end: 20170627T210000
+
+- workshop: Saturday Crafternoon
+  start: 20170701T120000
+  end: 20170701T170000
+
+- workshop: "Workshop: Chinese Brush Painting"
+  start: 20170703T183000
+  end: 20170703T210000
   url: http://tdy.cl/se/lpVoO6E
   facilitator: Alvin Cooke
-  archived: No
+  notes: SOLD OUT
 
-- date: 10th July 2017
-  workshop: Crochet for beginners
+- workshop: Open Night
+  start: 20170704T180000
+  end: 20170704T210000
+
+- workshop: "Workshop: Crochet for beginners"
+  start: 20170710T183000
+  end: 20170710T210000
   url: http://tdy.cl/se/XnwYtrw
   facilitator: Megan Marshall
-  archived: No
 
-- date: 17th August 2017 
-  workshop: LoRa and the IoT (Long range radio and the internet of things)
+- workshop: Open Night
+  start: 20170711T180000
+  end: 20170711T210000
+
+- workshop: Saturday Crafternoon
+  start: 20170715T120000
+  end: 20170715T170000
+
+- workshop: Open Night
+  start: 20170718T180000
+  end: 20170718T210000
+
+- workshop: Open Night
+  start: 20170725T180000
+  end: 20170725T210000
+
+- workshop: Saturday Crafternoon
+  start: 20170729T120000
+  end: 20170729T170000
+
+- workshop: "Workshop: LoRa and the IoT"
+  start: 20170817T183000
+  end: 20170817T210000
+  url: https://hobartmakers.com/scienceweek/
   facilitator: Scott Bragg
-  archived: No
-
-
-
-- date: TBA
-  workshop: Stitchmarker Making 
-  facilitator: Sarah James
-  archived: No
-
-- date: TBA
-  workshop: Drop Spindling
-  facilitator: Megan Marshall
-  archived: No
-
-- date: TBA
-  workshop: Soldering 
-  facilitator: Tutor volunteer needed
-  archived: No
-
-- date: TBA
-  workshop: Robotics 
-  facilitator: Leo Febey
-  archived: No
-
-#- date: TBA 
-#  workshop: Yarn Dying 
-#  facilitator: Megan Marshall
-#  archived: No
-
-#- date: TBA
-#  workshop: Inkscape 
-#  facilitator: Craig Marshall
-#  archived: No
-
-
-#- date: TBA
-#  workshop: Basic Woodworking
-#  facilitator: Craig Marshall
-#  archived: No
-
-
-
-
-
-#- date: TBA
-#  workshop: 3D Printing
-#  facilitator: Mike Rodway
-#  archived: No
-
-#- date: TBA
-#  workshop: OpenSCAD 
-#  facilitator: Mike Rodway
-#  archived: No
-
-#- date: TBA
-#  workshop: Sewing (BYO machine!)
-#  facilitator: Emma Poynton
-#  archived: No
-
-#- date: TBA 
-#  workshop: Knitting 
-#  facilitator: Emma Poynton
-#  archived: No
-
-#- date: TBA
-#  workshop: Card game development
-#  facilitator: Paul Attrill
-#  archived: No
-
-#- date: TBA
-#  workshop: Video Game Development 
-#  facilitator: Paul Attrill
-#  archived: No
+  notes: Tickets on sale soon
 

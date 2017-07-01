@@ -4,73 +4,81 @@ title: Events
 permalink: /events/
 ---
 
-# Events
+## Upcoming Events
 
+Open nights and Saturday Crafternoons are open to all, and we'd love you to come and join us. Workshops do require a paid ticket. To purchase, please follow the links provided.
 
-## Regular events
-
-* Open nights are every Tuesday from 6pm - 9pm, and we welcome everyone!
-
-* Side-projects Saturday is _usually_ every second Saturday afternoon. Double check in the [chatroom](https://riot.im/app/#/room/#hobartmakers:matrix.org) or check the [facebook events list](https://www.facebook.com/groups/hobartmakers/events/) to make sure. The goal is to bring an incomplete project and get some work done!
-
-## National Science Week 2017
-
-* We were lucky enough to receive funding to run a small event this year, we've chosen to demonstrate LoRa long range, low power radio - for connecting sensors to the Internet of Things. Check out our [National Science Week](/scienceweek/) page for more information.
-
-## Upcoming Workshops
-
-These are also listed on our [Facebook events list](https://www.facebook.com/groups/hobartmakers/events/) and our [TidyHQ events list](https://hobartmakers.tidyhq.com/public/schedule/events)
+<!--Event data is also available in an ICS file [here](https://hobartmakers.com/calendar.ics) -->
 
 <table class="table">
  <thead>
    <tr>
-   <td>Date</td>
-   <td>Workshop</td>
-   <td>Facilitator</td>
+   <td style="width:15%">Date</td>
+   <td style="width:15%">Time</td>
+   <td style="width:30%">Title</td>
+   <td style="width:20%">Facilitator</td>
+   <td style="width:20%">Notes</td>
    </tr>
   </thead>
   <tbody>
 
+{% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+{% assign nowunix = nowunix | plus: 0 %}
+
 {% for item in site.data.workshops %}
-  {% unless item.archived %}
+
+  {% capture posttime %}{{ item.start | date: '%s' }}{% endcapture %}
+  {% assign posttime = posttime | plus: 0 %}
+
+  {% if posttime >= nowunix %}
    <tr>
-   <td>{{ item.date }}</td>
+   <td>{{ item.start | date: '%a, %-d %b %Y'}}</td>
+   <td>{{ item.start | date: '%l:%M %P' }} - {{ item.end | date: '%l:%M %P'}}</td>
   {% if item.url %}
    <td><a href="{{ item.url }}" target="_blank">{{ item.workshop }}</a></td>
   {% else %}
    <td>{{ item.workshop }}</td>
   {% endif %}
    <td>{{ item.facilitator }}</td>
+   <td>{{ item.notes }}</td>
    </tr>
-  {% endunless %}
+  {% endif %}
 {% endfor %}
 
   </tbody>
 </table>
 
 
-## Past Workshops
+## Past Events
 
 <table class="table">
  <thead>
    <tr>
-   <td>Date</td>
-   <td>Workshop</td>
-   <td>Facilitator</td>
+   <td style="width:15%">Date</td>
+   <td style="width:15%">Time</td>
+   <td style="width:30%">Title</td>
+   <td style="width:20%">Facilitator</td>
+   <td style="width:20%">Notes</td>
    </tr>
   </thead>
   <tbody>
 
-{% for item in site.data.workshops %}
-  {% if item.archived %}
+{% for item in site.data.workshops reversed %}
+
+  {% capture posttime %}{{ item.start | date: '%s' }}{% endcapture %}
+  {% assign posttime = posttime | plus: 0 %}
+
+  {% if posttime < nowunix %}
    <tr style='text-decoration:line-through'>
-   <td>{{ item.date }}</td>
+   <td>{{ item.start | date: '%a, %-d %b %Y'}}</td>
+   <td>{{ item.start | date: '%l:%M %P' }} - {{ item.end | date: '%l:%M %P'}}</td>
   {% if item.url %}
    <td><a href="{{ item.url }}" target="_blank">{{ item.workshop }}</a></td>
   {% else %}
    <td>{{ item.workshop }}</td>
   {% endif %}
    <td>{{ item.facilitator }}</td>
+   <td>{{ item.notes }}</td>
    </tr>
   {% endif %}
 {% endfor %}
