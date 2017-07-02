@@ -4,145 +4,162 @@
 # https://icalendar.org/validator.html
 
 - workshop: "Workshop: Crochet for beginners"
-  start: 20170307T183000
-  end: 20170307T210000
+  start: "2017-03-07 18:30"
+  end: "2017-03-07 21:00"
   facilitator: Megan Marshall
   notes: 6 Attendees
 
 - workshop: Open Night
-  start: 20170328T180000
-  end: 20170328T210000
+  start: "2017-03-28 18:00"
+  end: "2017-03-28 21:00"
 
 - workshop: Open Night
-  start: 20170404T180000
-  end: 20170404T210000
+  start: "2017-04-04 18:00"
+  end: "2017-04-04 21:00"
 
 - workshop: Open Night
-  start: 20170411T180000
-  end: 20170411T210000
+  start: "2017-04-11 18:00"
+  end: "2017-04-11 21:00"
 
 - workshop: Open Night
-  start: 20170418T180000
-  end: 20170418T210000
+  start: "2017-04-18 18:00"
+  end: "2017-04-18 21:00"
 
 - workshop: Open Night
-  start: 20170425T180000
-  end: 20170425T210000
+  start: "2017-04-25 18:00"
+  end: "2017-04-25 21:00"
 
 - workshop: Side Projects Saturday
-  start: 20170429T110000
-  end: 20170429T180000
+  start: "2017-04-29 11:00"
+  end: "2017-04-29 18:00"
   
 - workshop: Open Night
-  start: 20170502T180000
-  end: 20170502T210000
+  start: "2017-05-02 18:00"
+  end: "2017-05-02 21:00"
 
 - workshop: Open Night
-  start: 20170509T180000
-  end: 20170509T210000
+  start: "2017-05-09 18:00"
+  end: "2017-05-09 21:00"
 
 - workshop: Side Projects Saturday
-  start: 20170513T103000
-  end: 20170513T170000
+  start: "2017-05-13 10:30"
+  end: "2017-05-13 17:00"
 
 - workshop: Open Night
-  start: 20170516T180000
-  end: 20170516T210000
+  start: "2017-05-16 18:00"
+  end: "2017-05-16 21:00"
+
 
 - workshop: Open Night
-  start: 20170523T180000
-  end: 20170523T210000
+  start: "2017-05-23 18:00"
+  end: "2017-05-23 21:00"
 
 - workshop: "Workshop: Cider Making - The Basics"
-  start: 20170525T190000
-  end: 20170525T210000
+  start: "2017-05-25 19:00"
+  end: "2017-05-25 21:00"
   url: http://tdy.cl/se/sgkyw3Y
   facilitator: Craig Marshall
   notes: 8 Attendees
 
+- workshop: Roadtrip to Launceston
+  start: "2017-05-27 08:00"
+  end: "2017-05-27 21:00"
+
 - workshop: Open Night
-  start: 20170530T180000
-  end: 20170530T210000
+  start: "2017-05-30 18:00"
+  end: "2017-05-30 21:00"
 
 - workshop: Side Projects Saturday
-  start: 20170603T120000
-  end: 20170603T170000
+  start: "2017-06-03 12:00"
+  end: "2017-06-03 17:00"
 
 - workshop: Open Night
-  start: 20170606T180000
-  end: 20170606T210000
+  start: "2017-06-06 18:00"
+  end: "2017-06-06 21:00"
 
 - workshop: Open Night
-  start: 20170613T180000
-  end: 20170613T210000
+  start: "2017-06-13 18:00"
+  end: "2017-06-13 21:00"
 
 - workshop: Saturday Crafternoon
-  start: 20170617T120000
-  end: 20170617T170000
+  start: "2017-06-17 12:00"
+  end: "2017-06-17 17:00"
 
 - workshop: Open Night
-  start: 20170620T180000
-  end: 20170620T210000
+  start: "2017-06-20 18:00"
+  end: "2017-06-20 21:00"
 
 - workshop: Screenprinting Demo
-  start: 20170624T140000
-  end: 20170624T160000
+  start: "2017-06-24 14:00"
+  end: "2017-06-24 16:00"
 
 - workshop: "Workshop: Electronics for beginners"
-  start: 20170626T183000
-  end: 20170626T203000
+  start: "2017-06-26 18:30"
+  end: "2017-06-26 20:30"
   url: http://tdy.cl/se/CAv4qYM
   facilitator: Ray Thomas
   notes: 10 Attendees
 
 - workshop: Open Night and Show and Tell
-  start: 20170627T180000
-  end: 20170627T210000
+  start: "2017-06-27 18:00"
+  end: "2017-06-27 21:00"
 
 - workshop: Saturday Crafternoon
   start: "2017-07-01 12:00"
   end: "2017-07-01 17:00"
 
 - workshop: "Workshop: Chinese Brush Painting"
-  start: 20170703T183000
-  end: 20170703T210000
+  start: "2017-07-03 18:30"
+  end: "2017-07-03 21:00"
   url: http://tdy.cl/se/lpVoO6E
   facilitator: Alvin Cooke
   notes: SOLD OUT
 
 - workshop: Open Night
-  start: 20170704T180000
-  end: 20170704T210000
+  start: "2017-07-04 18:00"
+  end: "2017-07-04 21:00"
 
 - workshop: "Workshop: Crochet for beginners"
-  start: 20170710T183000
-  end: 20170710T210000
+  start: "2017-07-10 18:30"
+  end: "2017-07-10 21:00"
   url: http://tdy.cl/se/XnwYtrw
   facilitator: Megan Marshall
 
 - workshop: Open Night
-  start: 20170711T180000
-  end: 20170711T210000
+  start: "2017-07-11 18:00"
+  end: "2017-07-11 21:00"
 
 - workshop: Saturday Crafternoon
-  start: 20170715T120000
-  end: 20170715T170000
+  start: "2017-07-15 12:00"
+  end: "2017-07-15 17:00"
+
+- workshop: "Workshop: Soldering"
+  start: "2017-07-17 18:30"
+  end: "2017-07-17 20:30"
+#  url: http://tdy.cl/se/XnwYtrw
+  facilitator: Craig Marshall / Michael Emery
 
 - workshop: Open Night
-  start: 20170718T180000
-  end: 20170718T210000
+  start: "2017-07-18 18:00"
+  end: "2017-07-18 21:00"
+
+- workshop: "Workshop: Beaded Stitchmarkers"
+  start: "2017-07-24 18:30"
+  end: "2017-07-24 20:30"
+#  url: http://tdy.cl/se/XnwYtrw
+  facilitator: Sarah James
 
 - workshop: Open Night
-  start: 20170725T180000
-  end: 20170725T210000
+  start: "2017-07-25 18:00"
+  end: "2017-07-25 21:00"
 
 - workshop: Saturday Crafternoon
-  start: 20170729T120000
-  end: 20170729T170000
+  start: "2017-07-29 12:00"
+  end: "2017-07-29 17:00"
 
 - workshop: "Workshop: LoRa and the IoT"
-  start: 20170817T183000
-  end: 20170817T210000
+  start: "2017-08-17 18:30"
+  end: "2017-08-17 21:00"
   url: https://hobartmakers.com/scienceweek/
   facilitator: Scott Bragg
   notes: Tickets on sale soon

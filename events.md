@@ -33,7 +33,7 @@ Open nights and Saturday Crafternoons are open to all, and we'd love you to come
   {% if posttime >= nowunix %}
    <tr>
    <td>{{ item.start | date: '%a, %-d %b %Y'}}</td>
-   <td>{{ item.start | date: '%l:%M %P' }} - {{ item.end | date: '%l:%M %P'}}</td>
+   <td>{{ item.start | date: '%l:%M%P' }} - {{ item.end | date: '%l:%M%P'}}</td>
   {% if item.url %}
    <td><a href="{{ item.url }}" target="_blank">{{ item.workshop }}</a></td>
   {% else %}
@@ -69,9 +69,10 @@ Open nights and Saturday Crafternoons are open to all, and we'd love you to come
   {% assign posttime = posttime | plus: 0 %}
 
   {% if posttime < nowunix %}
-   <tr style='text-decoration:line-through'>
+   <!--tr style='text-decoration:line-through'-->
+   <tr>
    <td>{{ item.start | date: '%a, %-d %b %Y'}}</td>
-   <td>{{ item.start | date: '%l:%M %P' }} - {{ item.end | date: '%l:%M %P'}}</td>
+   <td>{{ item.start | date: '%l:%M%P' }} - {{ item.end | date: '%l:%M%P'}}</td>
   {% if item.url %}
    <td><a href="{{ item.url }}" target="_blank">{{ item.workshop }}</a></td>
   {% else %}
