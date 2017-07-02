@@ -1,6 +1,9 @@
 - item: A Larger Makerspace 
   notes: Our most important need is for a large, low-cost or free warehouse or building suitable to use as a makerspace. If you are able to help in some way, please contact us!
 
+- item: Shop vac
+  notes: Karcher WD3 model is $129 at Good Guys, and is a good vacuum cleaner
+
 - item: Digital Oscilloscope
   notes: We have just received a 40MHz Cathode Ray Oscilloscope (and other great instruments) from the lovely folks at Battery Shed/Innovation Circle. But a digital one would be nice too.
 
@@ -62,6 +65,8 @@
 - item: Yihua SMD rework station with built in power supply
   notes: https://www.ebay.com.au/i/152192752873?chn=ps&dispItem=1
 
+- item: Circular saw
+
 
 - item: Stanley knife
   granted: Yes
@@ -116,8 +121,6 @@
 
 - item: Better signage for the sandwich board
   granted: Yes
-
-- item: Circular saw
 
 - item: Jigsaw
   notes: Electric jigsaw with wood cutting blades
