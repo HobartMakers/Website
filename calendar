@@ -5,6 +5,26 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//hobartmakers.com//NONSGML Event Calendar//EN
 METHOD:PUBLISH
+X-WR-CALNAME:Hobart Makers Inc.
+X-WR-TIMEZONE:Australia/Tasmania
+BEGIN:VTIMEZONE
+TZID:Australia/Tasmania
+X-LIC-LOCATION:Australia/Tasmania
+BEGIN:STANDARD
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+TZNAME:AEST
+DTSTART:19700405T030000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+TZNAME:AEDT
+DTSTART:19701004T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+END:DAYLIGHT
+END:VTIMEZONE
 {% for event in site.data.workshops %}{% if event.start %}BEGIN:VEVENT
 UID:{{ event.start | date: "%Y%m%d" }}@hobartmakers.com
 ORGANIZER;CN="Hobart Makers Inc.":MAILTO:info@hobartmakers.com
@@ -13,8 +33,8 @@ LOCATION:Building 1831 South, St. John's Avenue, New Town, Tas 7008
 {% endif %}GEO:-42.8550;147.2973
 SUMMARY:{{ event.workshop }}
 CLASS:PUBLIC
-DTSTART:{{ event.start }}
-DTEND:{{ event.end }}
+DTSTART;TZID=Australia/Tasmania:{{ event.start | date: "%Y%m%dT%H%M%S" }}
+DTEND;TZID=Australia/Tasmania:{{ event.end | date: "%Y%m%dT%H%M%S" }}
 DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%S" }}Z
 END:VEVENT
 {% endif %}{% endfor %}END:VCALENDAR
