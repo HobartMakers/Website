@@ -113,7 +113,7 @@
   end: "2017-07-03 21:00"
   url: http://tdy.cl/se/lpVoO6E
   facilitator: Alvin Cooke
-  notes: SOLD OUT
+  notes: 11 Attendees
 
 - workshop: Open Night
   start: "2017-07-04 18:00"
@@ -124,6 +124,7 @@
   end: "2017-07-10 21:00"
   url: http://tdy.cl/se/XnwYtrw
   facilitator: Megan Marshall
+  notes: in Old School Room - SOLD OUT
 
 - workshop: Open Night
   start: "2017-07-11 18:00"
@@ -136,18 +137,20 @@
 - workshop: "Workshop: Soldering"
   start: "2017-07-17 18:30"
   end: "2017-07-17 20:30"
-#  url: http://tdy.cl/se/XnwYtrw
+  url: http://tdy.cl/se/mwzy3DU
   facilitator: Craig Marshall / Michael Emery
+  notes: in Old School Room
 
 - workshop: Open Night
   start: "2017-07-18 18:00"
   end: "2017-07-18 21:00"
 
 - workshop: "Workshop: Beaded Stitchmarkers"
-  start: "2017-07-24 18:30"
-  end: "2017-07-24 20:30"
-#  url: http://tdy.cl/se/XnwYtrw
+  start: "2017-07-24 18:00"
+  end: "2017-07-24 21:00"
+  url: http://tdy.cl/se/su4LQyQ
   facilitator: Sarah James
+  notes: in Old School Room
 
 - workshop: Open Night
   start: "2017-07-25 18:00"
@@ -157,10 +160,56 @@
   start: "2017-07-29 12:00"
   end: "2017-07-29 17:00"
 
+- workshop: Open Night
+  start: "2017-08-01 18:00"
+  end: "2017-08-01 21:00"
+
+- workshop: "Workshop: 3D Printing"
+  start: "2017-08-03 18:30"
+  end: "2017-08-03 20:30"
+  facilitator: Mike Rodway
+  notes: in Admin Building
+
+- workshop: Open Night
+  start: "2017-08-08 18:00"
+  end: "2017-08-08 21:00"
+
+- workshop: "Workshop: Electronics"
+  start: "2017-08-10 18:30"
+  end: "2017-08-10 20:30"
+  facilitator: Ray Thomas
+  notes: in Admin Building
+
+- workshop: Saturday Crafternoon
+  start: "2017-08-12 12:00"
+  end: "2017-08-12 17:00"
+
+- workshop: Open Night
+  start: "2017-08-15 18:00"
+  end: "2017-08-15 21:00"
+
 - workshop: "Workshop: LoRa and the IoT"
   start: "2017-08-17 18:30"
   end: "2017-08-17 21:00"
   url: https://hobartmakers.com/scienceweek/
   facilitator: Scott Bragg
-  notes: Tickets on sale soon
+  notes: in Admin building, Tickets on sale soon
+
+- workshop: Open Night
+  start: "2017-08-22 18:00"
+  end: "2017-08-22 21:00"
+
+- workshop: "Workshop: Mindfulness"
+  start: "2017-08-24 18:30"
+  end: "2017-08-24 20:30"
+  facilitator: Tracey Groombridge
+  notes: in Admin Building
+
+- workshop: Saturday Crafternoon
+  start: "2017-07-26 12:00"
+  end: "2017-07-26 17:00"
+
+- workshop: Open Night
+  start: "2017-08-29 18:00"
+  end: "2017-08-29 21:00"
 
